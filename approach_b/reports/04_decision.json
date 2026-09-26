@@ -1,0 +1,163 @@
+{
+  "temperature": 1.074156563554578,
+  "rule": {
+    "threshold": 0.74,
+    "cap": 6,
+    "alpha": 0.5,
+    "gate": 0.0,
+    "macro_f05": 0.983385608809525,
+    "macro_precision": 0.9974781135965346,
+    "macro_recall": 0.9565086762455184,
+    "entities": 109668,
+    "singletons": 6035,
+    "singleton_accuracy": 0.9912178956089478
+  },
+  "calibration": {
+    "macro_f05": 0.9834423154552928,
+    "macro_precision": 0.9975658640132324,
+    "macro_recall": 0.9564798663482873,
+    "entities": 109668,
+    "singletons": 6035,
+    "singleton_accuracy": 0.9912178956089478
+  },
+  "evaluation": {
+    "macro_f05": 0.9829693360222452,
+    "macro_precision": 0.9968977380322357,
+    "macro_recall": 0.9565824868914005,
+    "entities": 110225,
+    "singletons": 5952,
+    "singleton_accuracy": 0.9865591397849462
+  },
+  "breakdown": {
+    "country=India": {
+      "macro_f05": 0.9768719946430133,
+      "macro_precision": 0.9920919274887706,
+      "macro_recall": 0.9504209480861115,
+      "entities": 44350,
+      "singletons": 2451,
+      "singleton_accuracy": 0.9734802121583027
+    },
+    "country=US": {
+      "macro_f05": 0.978967542850751,
+      "macro_precision": 0.9955604710701483,
+      "macro_recall": 0.9470524239412285,
+      "entities": 65875,
+      "singletons": 3501,
+      "singleton_accuracy": 0.9817195087117966
+    },
+    "script=indic_gold": {
+      "macro_f05": 0.9797953912948748,
+      "macro_precision": 0.996667846751069,
+      "macro_recall": 0.9470922368059518,
+      "entities": 13518,
+      "singletons": 0,
+      "singleton_accuracy": 0.0
+    },
+    "script=latin_gold": {
+      "macro_f05": 0.9778908015778254,
+      "macro_precision": 0.9938149985367354,
+      "macro_recall": 0.9485916698646906,
+      "entities": 96707,
+      "singletons": 5952,
+      "singleton_accuracy": 0.9783266129032258
+    }
+  },
+  "leave_one_country": {
+    "countries": [
+      "India",
+      "US"
+    ],
+    "India->US": {
+      "threshold": 0.5,
+      "cap": 5,
+      "alpha": 0.6,
+      "gate": 0.0,
+      "macro_f05": 0.8404174885956867,
+      "macro_precision": 0.9617466269841269,
+      "macro_recall": 0.744484126984127,
+      "entities": 8000,
+      "singletons": 395,
+      "singleton_accuracy": 0.7974683544303798,
+      "umc_pairs": 21726
+    },
+    "US->India": {
+      "threshold": 0.74,
+      "cap": 3,
+      "alpha": 0.9,
+      "gate": 0.0,
+      "macro_f05": 0.7131524275730449,
+      "macro_precision": 0.849075,
+      "macro_recall": 0.5773437003968254,
+      "entities": 8000,
+      "singletons": 437,
+      "singleton_accuracy": 0.5606407322654462,
+      "umc_pairs": 19173
+    }
+  },
+  "ship": true,
+  "ship_rule": "replace A if eval F0.5 >= 0.953",
+  "phase1": {
+    "temperature": 1.074156563554578,
+    "rule": {
+      "threshold": 0.74,
+      "cap": 6,
+      "alpha": 0.5,
+      "gate": 0.0,
+      "macro_f05": 0.983385608809525,
+      "macro_precision": 0.9974781135965346,
+      "macro_recall": 0.9565086762455184,
+      "entities": 109668,
+      "singletons": 6035,
+      "singleton_accuracy": 0.9912178956089478
+    },
+    "calibration": {
+      "macro_f05": 0.9834423154552928,
+      "macro_precision": 0.9975658640132324,
+      "macro_recall": 0.9564798663482873,
+      "entities": 109668,
+      "singletons": 6035,
+      "singleton_accuracy": 0.9912178956089478
+    },
+    "evaluation": {
+      "macro_f05": 0.9829693360222452,
+      "macro_precision": 0.9968977380322357,
+      "macro_recall": 0.9565824868914005,
+      "entities": 110225,
+      "singletons": 5952,
+      "singleton_accuracy": 0.9865591397849462
+    },
+    "previous_eval_f05": 0.9781243805643989,
+    "stacker": {
+      "rule": {
+        "threshold": 0.74,
+        "cap": 6,
+        "alpha": 0.5,
+        "gate": 0.0,
+        "macro_f05": 0.983385608809525,
+        "macro_precision": 0.9974781135965346,
+        "macro_recall": 0.9565086762455184,
+        "entities": 109668,
+        "singletons": 6035,
+        "singleton_accuracy": 0.9912178956089478
+      },
+      "calibration": {
+        "macro_f05": 0.9834423154552928,
+        "macro_precision": 0.9975658640132324,
+        "macro_recall": 0.9564798663482873,
+        "entities": 109668,
+        "singletons": 6035,
+        "singleton_accuracy": 0.9912178956089478
+      },
+      "evaluation": {
+        "macro_f05": 0.9829693360222452,
+        "macro_precision": 0.9968977380322357,
+        "macro_recall": 0.9565824868914005,
+        "entities": 110225,
+        "singletons": 5952,
+        "singleton_accuracy": 0.9865591397849462
+      }
+    },
+    "score_source": "stacker"
+  },
+  "stacker": true
+}

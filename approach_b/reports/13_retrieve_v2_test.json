@@ -1,0 +1,7 @@
+{
+  "dense_tag": "roman_multilingual-e5-small",
+  "rrf_keep": 25,
+  "reserved": 8,
+  "source2_avg_pairs": 30.94147219349119,
+  "source3_avg_pairs": 31.00180659192494
+}

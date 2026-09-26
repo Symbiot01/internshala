@@ -1,0 +1,50 @@
+{
+  "tables": {
+    "indic_dict": 1242,
+    "aliases": 17282,
+    "unigrams": 108821,
+    "unigram_total": 7582025
+  },
+  "train_source1": {
+    "rows": 2206821,
+    "blank_address": 0,
+    "domain_like": 0,
+    "nonce_like": 254721,
+    "seconds": 14.4
+  },
+  "train_source2": {
+    "rows": 5034616,
+    "blank_address": 168967,
+    "domain_like": 202798,
+    "nonce_like": 695472,
+    "seconds": 316.1
+  },
+  "train_source3": {
+    "rows": 5285603,
+    "blank_address": 175916,
+    "domain_like": 212294,
+    "nonce_like": 765786,
+    "seconds": 238.1
+  },
+  "test_source1": {
+    "rows": 1732544,
+    "blank_address": 0,
+    "domain_like": 3,
+    "nonce_like": 176337,
+    "seconds": 12.8
+  },
+  "test_source2": {
+    "rows": 4887273,
+    "blank_address": 129408,
+    "domain_like": 157223,
+    "nonce_like": 549195,
+    "seconds": 368.8
+  },
+  "test_source3": {
+    "rows": 5082316,
+    "blank_address": 136098,
+    "domain_like": 165155,
+    "nonce_like": 612495,
+    "seconds": 277.9
+  }
+}

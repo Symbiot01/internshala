@@ -1,0 +1,99 @@
+{
+  "source": "/home/dev/amazon-ml-entity-resolution/approach_b",
+  "files": [
+    {
+      "path": "lib/text.py",
+      "sha256": "9205a8c288d4fb70e436c1d7f6141f8141dcc500d2fe9303df8529335fbc4f28",
+      "bytes": 17175
+    },
+    {
+      "path": "lib/cross_encoder.py",
+      "sha256": "23a1f3648458941ab06e0e3a7c0014cfe30e625c704a0dbdc592be83000a7e8e",
+      "bytes": 15518
+    },
+    {
+      "path": "lib/calibrate.py",
+      "sha256": "fda7f8a174ea48473938dbe875976c7e3fd5aff82fb84afef6ecbab79a14b452",
+      "bytes": 1310
+    },
+    {
+      "path": "lib/decide.py",
+      "sha256": "d22f9d5c9ac0f214014ddf92e3ce46fcff2fdfa8e2e7d36656b1760322be6998",
+      "bytes": 7915
+    },
+    {
+      "path": "lib/metrics.py",
+      "sha256": "760b1095fed84b83d2e5cf01b913aca10d742ffb29956dda4f02f061abf8264a",
+      "bytes": 2109
+    },
+    {
+      "path": "lib/data.py",
+      "sha256": "bf3aaa528ec4589ff303fc1a668b38bf4975dd1c12b615093d0d75e07b22b11b",
+      "bytes": 2993
+    },
+    {
+      "path": "lib/pairs.py",
+      "sha256": "2e6d628c87874a3d3f6b53ff32c51768c6830e154f6a071be92e1a393beb719a",
+      "bytes": 3658
+    },
+    {
+      "path": "lib/distributed.py",
+      "sha256": "c69493a702f51f97106c6eaf914d6d36fb5eec6ea472d1cd957cc1f935e0507c",
+      "bytes": 2696
+    },
+    {
+      "path": "lib/dense.py",
+      "sha256": "621481f4242e0c72481527e9a44b77110409ad60059fb1b244b940b1d612a05c",
+      "bytes": 6210
+    },
+    {
+      "path": "cache/train/entities.npz",
+      "sha256": "9529a551b66962faad65b36eafad3833357e9d3ae91685065aee4894480acd39",
+      "bytes": 221184
+    },
+    {
+      "path": "cache/train/source1.parquet",
+      "sha256": "070fc374bf1ec109f58cd9d2bf88589de4e73a2ea34fa0d18d362908c2615e3d",
+      "bytes": 504897501
+    },
+    {
+      "path": "cache/train/source2.parquet",
+      "sha256": "1e18165997911ab45a755f7fdc8020be1c06553eba9d7fdada1e59e1783c0169",
+      "bytes": 1147041253
+    },
+    {
+      "path": "cache/train/source3.parquet",
+      "sha256": "5d3fd0feb1fca335d9dcb4b9404178b2dd25481f1e02ab321dad97d8ba9d8c70",
+      "bytes": 1186156265
+    },
+    {
+      "path": "cache/train/pairs_train.parquet",
+      "sha256": "9f3ba09b9d7593d516364336f38bb496564e90c2eff2b260bab985b2fa540a29",
+      "bytes": 97998315
+    },
+    {
+      "path": "cache/train/pairs_calibration.parquet",
+      "sha256": "1a134c446e545bbe34b42a03238720332b767811944fc2046f24d7b1ff7d6ff0",
+      "bytes": 53773306
+    },
+    {
+      "path": "cache/train/pairs_evaluation.parquet",
+      "sha256": "72b800f985886db848bb84380bb12f2c7724f07761c4ab4cae44b3d1bd3ef037",
+      "bytes": 54039649
+    },
+    {
+      "path": "cache/train/matcher_logits.npz",
+      "sha256": "d98f7e4b59c144377ddce5c4e4ee4bfb58b23dd6fe8bb85098c9a11d5a4c8513",
+      "bytes": 382455985
+    },
+    {
+      "path": "models/minilm",
+      "kind": "dir"
+    },
+    {
+      "path": "reports/04_decision.json",
+      "sha256": "992898f4b71e80382b351bba6ad47d8c97f487f3131e3779ed66186d6fc40580",
+      "bytes": 4567
+    }
+  ]
+}

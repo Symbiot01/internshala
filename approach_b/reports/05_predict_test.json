@@ -1,0 +1,21 @@
+{
+  "entities": 1732544,
+  "candidate_pairs": 86627200,
+  "matched_pairs": 5582326,
+  "validator_returncode": 0,
+  "validator_stdout": "ML Challenge 2026 \u2014 submission validator\n  test dir: /home/dev/amazon-ml-entity-resolution/dataset/test\n  required S1 entities: 1732544\n  matching_results.tsv: 1732544 rows (102836 empty, 1629708 non-empty).\n  candidate_pairs.tsv: 1732544 rows (0 empty, 1732544 non-empty).\n\nWARNING: ID-existence check is OFF (the default) \u2014 not checking that matched/candidate IDs exist in the test set. Every other rule is still checked. Re-run with --check-ids to enable it (needs test_source2/3.tsv; uses more memory). A nonexistent ID only lowers your score, never rejects your submission.\nPASS \u2014 no blocking issues found. Safe to submit.\n",
+  "validator_stderr": "",
+  "rule": {
+    "threshold": 0.76,
+    "cap": 6,
+    "alpha": 0.5,
+    "gate": 0.0,
+    "macro_f05": 0.9738963636606324,
+    "macro_precision": 0.9947213407739722,
+    "macro_recall": 0.9354090722511775,
+    "entities": 109668,
+    "singletons": 6035,
+    "singleton_accuracy": 0.979784589892295
+  },
+  "temperature": 1.0490826024908044
+}

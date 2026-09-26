@@ -1,0 +1,17 @@
+{
+  "pair_token_percentiles": {
+    "50": 76,
+    "90": 106,
+    "99": 141,
+    "99.5": 149,
+    "99.9": 166
+  },
+  "overflow_fraction_at_max_len": 0.02515,
+  "e5_small_texts_per_second": 19806,
+  "minilm_predict_pairs_per_second": 8636,
+  "minilm_train_pairs_per_second": 1737,
+  "xlmr_predict_pairs_per_second": 3772,
+  "xlmr_train_pairs_per_second": 728,
+  "gpu": "NVIDIA RTX Pro 6000 Blackwell DC-2-48Q MIG 2g.48gb",
+  "torch": "2.11.0+cu128"
+}

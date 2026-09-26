@@ -1,0 +1,32 @@
+{
+  "baseline_eval_f05": 0.9793,
+  "rule": {
+    "threshold": 0.7,
+    "cap": 6,
+    "alpha": 0.5,
+    "gate": 0.0,
+    "macro_f05": 0.9843400045218901,
+    "macro_precision": 0.9974461918540866,
+    "macro_recall": 0.9595414842125369,
+    "entities": 109668,
+    "singletons": 6035,
+    "singleton_accuracy": 0.9913835956917978
+  },
+  "calibration": {
+    "macro_f05": 0.9844108958492837,
+    "macro_precision": 0.9975347781268834,
+    "macro_recall": 0.9595289355157777,
+    "entities": 109668,
+    "singletons": 6035,
+    "singleton_accuracy": 0.9915492957746479
+  },
+  "evaluation": {
+    "macro_f05": 0.9837607452137289,
+    "macro_precision": 0.9967190414988102,
+    "macro_recall": 0.9593972165029094,
+    "entities": 110225,
+    "singletons": 5952,
+    "singleton_accuracy": 0.9868951612903226
+  },
+  "delta_vs_9793": 0.004460745213728967
+}

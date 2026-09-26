@@ -1,0 +1,14 @@
+{
+  "source2": {
+    "blank_docs": 129408,
+    "domain_docs": 157223,
+    "nonce_docs": 549195,
+    "nonce_keys": 359455
+  },
+  "source3": {
+    "blank_docs": 136098,
+    "domain_docs": 165155,
+    "nonce_docs": 612495,
+    "nonce_keys": 395538
+  }
+}
