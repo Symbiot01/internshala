@@ -1,0 +1,43 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Prediction dumps
+output/
+
+# Model weights and hub downloads
+models/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.h5
+*.hdf5
+*.joblib
+*.pkl
+*.pickle
+
+# Retrieval and token caches
+cache/
+*.npy
+*.npz
+*.parquet
+*.arrow
+*.feather
+
+# Challenge TSVs (multi-GB; not source)
+dataset/
+
+.DS_Store
