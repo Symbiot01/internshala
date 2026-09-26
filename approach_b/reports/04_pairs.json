@@ -1,0 +1,17 @@
+{
+  "train": {
+    "rows": 10000000,
+    "positives": 675709,
+    "entities": 200000
+  },
+  "calibration": {
+    "rows": 5483400,
+    "positives": 370303,
+    "entities": 109668
+  },
+  "evaluation": {
+    "rows": 5511250,
+    "positives": 373474,
+    "entities": 110225
+  }
+}

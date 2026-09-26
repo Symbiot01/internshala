@@ -1,0 +1,32 @@
+{
+  "probe_rows": 8494,
+  "probe_by_bucket": {
+    "below_threshold": 3467,
+    "hit": 2500,
+    "singleton": 1000,
+    "fp": 994,
+    "other_fn": 533
+  },
+  "probe_by_kind": {
+    "blank_addr": 4469,
+    "near_miss": 1993,
+    "singleton": 1000,
+    "indic": 509,
+    "nonce_alias": 364,
+    "domain": 159
+  },
+  "oracle_rows": 6000,
+  "pool": {
+    "below": 200131,
+    "hits": 176019,
+    "fps": 994,
+    "blocking_miss": 6343
+  },
+  "rule": {
+    "threshold": 0.74,
+    "cap": 6,
+    "alpha": 0.5,
+    "gate": 0.0
+  },
+  "temperature": 1.074156563554578
+}

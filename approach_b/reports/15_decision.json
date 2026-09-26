@@ -1,0 +1,43 @@
+{
+  "temperature": 1.074156563554578,
+  "rule": {
+    "threshold": 0.65,
+    "cap": 6,
+    "alpha": 0.7,
+    "gate": 0.0,
+    "macro_f05": 0.9858230143992427,
+    "macro_precision": 0.9970767687872951,
+    "macro_recall": 0.9635657727762992,
+    "entities": 109668,
+    "singletons": 6035,
+    "singleton_accuracy": 0.9890637945318973
+  },
+  "calibration": {
+    "macro_f05": 0.9858893602149088,
+    "macro_precision": 0.9971613168981591,
+    "macro_recall": 0.9635491207859629,
+    "entities": 109668,
+    "singletons": 6035,
+    "singleton_accuracy": 0.9892294946147473
+  },
+  "evaluation": {
+    "macro_f05": 0.9850603734397162,
+    "macro_precision": 0.9962859338942351,
+    "macro_recall": 0.9632458486298359,
+    "entities": 110225,
+    "singletons": 5952,
+    "singleton_accuracy": 0.9815188172043011
+  },
+  "new_pairs": {
+    "calibration": 4736082,
+    "evaluation": 4753686
+  },
+  "gate": {
+    "eval_f05": 0.9850603734397162,
+    "baseline": 0.9829693360222452,
+    "precision": 0.9962859338942351,
+    "singleton": 0.9815188172043011,
+    "pass": true
+  },
+  "score_source": "stacker_v2"
+}

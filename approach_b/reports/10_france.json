@@ -1,0 +1,40 @@
+{
+  "aliases_added": 86220,
+  "synthetic_rows": 20000,
+  "synthetic_path": "/home/dev/amazon-ml-entity-resolution/approach_b/cache/test/synthetic_france.parquet",
+  "fine_tune_on_test": false,
+  "fine_tune_reason": "disabled; would use unlabeled test inputs and must be disclosed",
+  "prediction_sanity": {
+    "France": {
+      "entities": 259452,
+      "singleton_rate": 0.0490533894516134,
+      "mean_matches": 3.284769437121317
+    },
+    "India": {
+      "entities": 809986,
+      "singleton_rate": 0.062362806270725664,
+      "mean_matches": 3.1958663483072547
+    },
+    "US": {
+      "entities": 663106,
+      "singleton_rate": 0.05971292674172757,
+      "mean_matches": 3.2294670836940096
+    }
+  },
+  "french_street_table": {
+    "r": "rue",
+    "r.": "rue",
+    "rue": "rue",
+    "bd": "boulevard",
+    "blvd": "boulevard",
+    "av": "avenue",
+    "av.": "avenue",
+    "ave": "avenue",
+    "pl": "place",
+    "allee": "allee",
+    "all\u00e9e": "allee",
+    "n": "no",
+    "n\u00b0": "no",
+    "no": "no"
+  }
+}

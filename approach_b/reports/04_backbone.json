@@ -1,0 +1,5 @@
+{
+  "chosen": "minilm",
+  "repo": "microsoft/Multilingual-MiniLM-L12-H384",
+  "include_country": true
+}

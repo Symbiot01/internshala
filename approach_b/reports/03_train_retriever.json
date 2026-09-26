@@ -1,0 +1,12 @@
+{
+  "ran": false,
+  "reason": "Zero-shot fused hold-out recall is already 0.985 (S2) and 0.984 (S3) at 100, and 0.977 / 0.975 at the chosen K=25. That beats Approach A blocking recall (0.9675). DPR fine-tune is gated on a fused-recall gain and is skipped.",
+  "fused_recall_at_25": {
+    "source2": 0.9766652110112646,
+    "source3": 0.9751847041810368
+  },
+  "fused_recall_at_100": {
+    "source2": 0.9850872172660622,
+    "source3": 0.9840139071383369
+  }
+}

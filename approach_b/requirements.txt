@@ -1,0 +1,14 @@
+# Install torch from the CUDA 12.8 index first (Blackwell, sm_120):
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0
+transformers==5.17.0
+tokenizers==0.23.2
+safetensors==0.8.0
+huggingface_hub==1.33.0
+scikit-learn==1.9.1
+scipy==1.18.1
+numpy==2.5.3
+pandas==3.0.6
+pyarrow==25.0.1
+anyascii==0.3.3
+lightgbm==4.6.0

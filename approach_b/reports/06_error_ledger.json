@@ -1,0 +1,82 @@
+{
+  "evaluation": {
+    "macro_f05": 0.9754956899063112,
+    "macro_precision": 0.9948274665784304,
+    "macro_recall": 0.9413924859193628,
+    "entities": 110225,
+    "singletons": 5952,
+    "singleton_accuracy": 0.9810147849462365
+  },
+  "gold_pairs": 382493,
+  "loss": {
+    "hit": 359411,
+    "below_threshold": 14037,
+    "blocking_miss": 9019,
+    "cap_cut": 2,
+    "umc_or_alpha": 24
+  },
+  "by_bucket": {
+    "hit": {
+      "near_miss": 278003,
+      "US": 215902,
+      "S2": 173896,
+      "S3": 185515,
+      "nonce_alias": 10712,
+      "India": 143509,
+      "indic": 50761,
+      "blank_addr": 2426,
+      "domain": 17509
+    },
+    "below_threshold": {
+      "blank_addr": 11260,
+      "US": 11374,
+      "S2": 6970,
+      "near_miss": 1532,
+      "S3": 7067,
+      "nonce_alias": 972,
+      "India": 2663,
+      "indic": 144,
+      "domain": 129
+    },
+    "blocking_miss": {
+      "blank_addr": 3064,
+      "India": 7268,
+      "S2": 4201,
+      "US": 1751,
+      "S3": 4818,
+      "indic": 4309,
+      "nonce_alias": 735,
+      "near_miss": 552,
+      "domain": 359
+    },
+    "cap_cut": {
+      "indic": 1,
+      "India": 1,
+      "S2": 2,
+      "nonce_alias": 1,
+      "US": 1
+    },
+    "umc_or_alpha": {
+      "blank_addr": 2,
+      "India": 12,
+      "S3": 14,
+      "nonce_alias": 21,
+      "S2": 10,
+      "US": 12,
+      "indic": 1
+    }
+  },
+  "rule": {
+    "threshold": 0.76,
+    "cap": 6,
+    "alpha": 0.5,
+    "gate": 0.0,
+    "macro_f05": 0.9738963636606324,
+    "macro_precision": 0.9947213407739722,
+    "macro_recall": 0.9354090722511775,
+    "entities": 109668,
+    "singletons": 6035,
+    "singleton_accuracy": 0.979784589892295
+  },
+  "note": "keep_mask uses per-source ranks and cap-exempt from decide.py"
+}

@@ -1,0 +1,2447 @@
+
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+distributed: world=4 devices=['NVIDIA RTX PRO 6000 Blackwell Server Edition', 'NVIDIA RTX PRO 6000 Blackwell Server Edition', 'NVIDIA RTX PRO 6000 Blackwell Server Edition', 'NVIDIA RTX PRO 6000 Blackwell Server Edition']
+{
+  "skipped": true,
+  "chosen": "minilm",
+  "reason": "--skip-bakeoff"
+}
+{
+  "chosen": "minilm",
+  "repo": "microsoft/Multilingual-MiniLM-L12-H384",
+  "include_country": true
+}
+tokenize 4096/10000000
+tokenize 86016/10000000
+tokenize 167936/10000000
+tokenize 249856/10000000
+tokenize 331776/10000000
+tokenize 413696/10000000
+tokenize 495616/10000000
+tokenize 577536/10000000
+tokenize 659456/10000000
+tokenize 741376/10000000
+tokenize 823296/10000000
+tokenize 905216/10000000
+tokenize 987136/10000000
+tokenize 1069056/10000000
+tokenize 1150976/10000000
+tokenize 1232896/10000000
+tokenize 1314816/10000000
+tokenize 1396736/10000000
+tokenize 1478656/10000000
+tokenize 1560576/10000000
+tokenize 1642496/10000000
+tokenize 1724416/10000000
+tokenize 1806336/10000000
+tokenize 1888256/10000000
+tokenize 1970176/10000000
+tokenize 2052096/10000000
+tokenize 2134016/10000000
+tokenize 2215936/10000000
+tokenize 2297856/10000000
+tokenize 2379776/10000000
+tokenize 2461696/10000000
+tokenize 2543616/10000000
+tokenize 2625536/10000000
+tokenize 2707456/10000000
+tokenize 2789376/10000000
+tokenize 2871296/10000000
+tokenize 2953216/10000000
+tokenize 3035136/10000000
+tokenize 3117056/10000000
+tokenize 3198976/10000000
+tokenize 3280896/10000000
+tokenize 3362816/10000000
+tokenize 3444736/10000000
+tokenize 3526656/10000000
+tokenize 3608576/10000000
+tokenize 3690496/10000000
+tokenize 3772416/10000000
+tokenize 3854336/10000000
+tokenize 3936256/10000000
+tokenize 4018176/10000000
+tokenize 4100096/10000000
+tokenize 4182016/10000000
+tokenize 4263936/10000000
+tokenize 4345856/10000000
+tokenize 4427776/10000000
+tokenize 4509696/10000000
+tokenize 4591616/10000000
+tokenize 4673536/10000000
+tokenize 4755456/10000000
+tokenize 4837376/10000000
+tokenize 4919296/10000000
+tokenize 5001216/10000000
+tokenize 5083136/10000000
+tokenize 5165056/10000000
+tokenize 5246976/10000000
+tokenize 5328896/10000000
+tokenize 5410816/10000000
+tokenize 5492736/10000000
+tokenize 5574656/10000000
+tokenize 5656576/10000000
+tokenize 5738496/10000000
+tokenize 5820416/10000000
+tokenize 5902336/10000000
+tokenize 5984256/10000000
+tokenize 6066176/10000000
+tokenize 6148096/10000000
+tokenize 6230016/10000000
+tokenize 6311936/10000000
+tokenize 6393856/10000000
+tokenize 6475776/10000000
+tokenize 6557696/10000000
+tokenize 6639616/10000000
+tokenize 6721536/10000000
+tokenize 6803456/10000000
+tokenize 6885376/10000000
+tokenize 6967296/10000000
+tokenize 7049216/10000000
+tokenize 7131136/10000000
+tokenize 7213056/10000000
+tokenize 7294976/10000000
+tokenize 7376896/10000000
+tokenize 7458816/10000000
+tokenize 7540736/10000000
+tokenize 7622656/10000000
+tokenize 7704576/10000000
+tokenize 7786496/10000000
+tokenize 7868416/10000000
+tokenize 7950336/10000000
+tokenize 8032256/10000000
+tokenize 8114176/10000000
+tokenize 8196096/10000000
+tokenize 8278016/10000000
+tokenize 8359936/10000000
+tokenize 8441856/10000000
+tokenize 8523776/10000000
+tokenize 8605696/10000000
+tokenize 8687616/10000000
+tokenize 8769536/10000000
+tokenize 8851456/10000000
+tokenize 8933376/10000000
+tokenize 9015296/10000000
+tokenize 9097216/10000000
+tokenize 9179136/10000000
+tokenize 9261056/10000000
+tokenize 9342976/10000000
+tokenize 9424896/10000000
+tokenize 9506816/10000000
+tokenize 9588736/10000000
+tokenize 9670656/10000000
+tokenize 9752576/10000000
+tokenize 9834496/10000000
+tokenize 9916416/10000000
+tokenize 9998336/10000000
+tokenize 4096/32768
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 62610.94it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: microsoft/Multilingual-MiniLM-L12-H384
+Key               | Status  | 
+------------------+---------+-
+classifier.bias   | MISSING | 
+classifier.weight | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 61612.64it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: microsoft/Multilingual-MiniLM-L12-H384
+Key               | Status  | 
+------------------+---------+-
+classifier.weight | MISSING | 
+classifier.bias   | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 61763.10it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: microsoft/Multilingual-MiniLM-L12-H384
+Key               | Status  | 
+------------------+---------+-
+classifier.bias   | MISSING | 
+classifier.weight | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 60628.06it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: microsoft/Multilingual-MiniLM-L12-H384
+Key               | Status  | 
+------------------+---------+-
+classifier.weight | MISSING | 
+classifier.bias   | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+train n=10000000 global_batch=256 steps/epoch=39062 world=4
+epoch 1 step 50/78124 loss 0.7229
+epoch 1 step 100/78124 loss 0.7209
+epoch 1 step 150/78124 loss 0.7162
+epoch 1 step 200/78124 loss 0.7044
+epoch 1 step 250/78124 loss 0.6772
+epoch 1 step 300/78124 loss 0.6354
+epoch 1 step 350/78124 loss 0.5947
+epoch 1 step 400/78124 loss 0.5598
+epoch 1 step 450/78124 loss 0.5288
+epoch 1 step 500/78124 loss 0.5019
+epoch 1 step 550/78124 loss 0.4774
+epoch 1 step 600/78124 loss 0.4552
+epoch 1 step 650/78124 loss 0.4353
+epoch 1 step 700/78124 loss 0.4167
+epoch 1 step 750/78124 loss 0.3996
+epoch 1 step 800/78124 loss 0.3833
+epoch 1 step 850/78124 loss 0.3687
+epoch 1 step 900/78124 loss 0.3544
+epoch 1 step 950/78124 loss 0.3415
+epoch 1 step 1000/78124 loss 0.3294
+epoch 1 step 1050/78124 loss 0.3182
+epoch 1 step 1100/78124 loss 0.3082
+epoch 1 step 1150/78124 loss 0.2987
+epoch 1 step 1200/78124 loss 0.2898
+epoch 1 step 1250/78124 loss 0.2814
+epoch 1 step 1300/78124 loss 0.2737
+epoch 1 step 1350/78124 loss 0.2664
+epoch 1 step 1400/78124 loss 0.2598
+epoch 1 step 1450/78124 loss 0.2533
+epoch 1 step 1500/78124 loss 0.2470
+epoch 1 step 1550/78124 loss 0.2412
+epoch 1 step 1600/78124 loss 0.2353
+epoch 1 step 1650/78124 loss 0.2307
+epoch 1 step 1700/78124 loss 0.2260
+epoch 1 step 1750/78124 loss 0.2215
+epoch 1 step 1800/78124 loss 0.2171
+epoch 1 step 1850/78124 loss 0.2131
+epoch 1 step 1900/78124 loss 0.2092
+epoch 1 step 1950/78124 loss 0.2058
+epoch 1 step 2000/78124 loss 0.2024
+epoch 1 step 2050/78124 loss 0.1995
+epoch 1 step 2100/78124 loss 0.1969
+epoch 1 step 2150/78124 loss 0.1946
+epoch 1 step 2200/78124 loss 0.1920
+epoch 1 step 2250/78124 loss 0.1896
+epoch 1 step 2300/78124 loss 0.1872
+epoch 1 step 2350/78124 loss 0.1849
+epoch 1 step 2400/78124 loss 0.1826
+epoch 1 step 2450/78124 loss 0.1805
+epoch 1 step 2500/78124 loss 0.1788
+epoch 1 step 2550/78124 loss 0.1770
+epoch 1 step 2600/78124 loss 0.1750
+epoch 1 step 2650/78124 loss 0.1726
+epoch 1 step 2700/78124 loss 0.1703
+epoch 1 step 2750/78124 loss 0.1682
+epoch 1 step 2800/78124 loss 0.1659
+epoch 1 step 2850/78124 loss 0.1638
+epoch 1 step 2900/78124 loss 0.1616
+epoch 1 step 2950/78124 loss 0.1595
+epoch 1 step 3000/78124 loss 0.1576
+epoch 1 step 3050/78124 loss 0.1556
+epoch 1 step 3100/78124 loss 0.1536
+epoch 1 step 3150/78124 loss 0.1517
+epoch 1 step 3200/78124 loss 0.1499
+epoch 1 step 3250/78124 loss 0.1483
+epoch 1 step 3300/78124 loss 0.1465
+epoch 1 step 3350/78124 loss 0.1448
+epoch 1 step 3400/78124 loss 0.1433
+epoch 1 step 3450/78124 loss 0.1418
+epoch 1 step 3500/78124 loss 0.1403
+epoch 1 step 3550/78124 loss 0.1389
+epoch 1 step 3600/78124 loss 0.1375
+epoch 1 step 3650/78124 loss 0.1361
+epoch 1 step 3700/78124 loss 0.1348
+epoch 1 step 3750/78124 loss 0.1334
+epoch 1 step 3800/78124 loss 0.1320
+epoch 1 step 3850/78124 loss 0.1306
+epoch 1 step 3900/78124 loss 0.1295
+epoch 1 step 3950/78124 loss 0.1282
+epoch 1 step 4000/78124 loss 0.1271
+epoch 1 step 4050/78124 loss 0.1259
+epoch 1 step 4100/78124 loss 0.1248
+epoch 1 step 4150/78124 loss 0.1236
+epoch 1 step 4200/78124 loss 0.1225
+epoch 1 step 4250/78124 loss 0.1214
+epoch 1 step 4300/78124 loss 0.1203
+epoch 1 step 4350/78124 loss 0.1194
+epoch 1 step 4400/78124 loss 0.1182
+epoch 1 step 4450/78124 loss 0.1173
+epoch 1 step 4500/78124 loss 0.1163
+epoch 1 step 4550/78124 loss 0.1154
+epoch 1 step 4600/78124 loss 0.1143
+epoch 1 step 4650/78124 loss 0.1133
+epoch 1 step 4700/78124 loss 0.1124
+epoch 1 step 4750/78124 loss 0.1114
+epoch 1 step 4800/78124 loss 0.1105
+epoch 1 step 4850/78124 loss 0.1095
+epoch 1 step 4900/78124 loss 0.1087
+epoch 1 step 4950/78124 loss 0.1079
+epoch 1 step 5000/78124 loss 0.1071
+epoch 1 step 5050/78124 loss 0.1063
+epoch 1 step 5100/78124 loss 0.1056
+epoch 1 step 5150/78124 loss 0.1048
+epoch 1 step 5200/78124 loss 0.1039
+epoch 1 step 5250/78124 loss 0.1031
+epoch 1 step 5300/78124 loss 0.1023
+epoch 1 step 5350/78124 loss 0.1016
+epoch 1 step 5400/78124 loss 0.1009
+epoch 1 step 5450/78124 loss 0.1001
+epoch 1 step 5500/78124 loss 0.0994
+epoch 1 step 5550/78124 loss 0.0987
+epoch 1 step 5600/78124 loss 0.0981
+epoch 1 step 5650/78124 loss 0.0974
+epoch 1 step 5700/78124 loss 0.0968
+epoch 1 step 5750/78124 loss 0.0962
+epoch 1 step 5800/78124 loss 0.0956
+epoch 1 step 5850/78124 loss 0.0948
+epoch 1 step 5900/78124 loss 0.0942
+epoch 1 step 5950/78124 loss 0.0935
+epoch 1 step 6000/78124 loss 0.0928
+epoch 1 step 6050/78124 loss 0.0923
+epoch 1 step 6100/78124 loss 0.0917
+epoch 1 step 6150/78124 loss 0.0910
+epoch 1 step 6200/78124 loss 0.0905
+epoch 1 step 6250/78124 loss 0.0899
+epoch 1 step 6300/78124 loss 0.0894
+epoch 1 step 6350/78124 loss 0.0889
+epoch 1 step 6400/78124 loss 0.0883
+epoch 1 step 6450/78124 loss 0.0878
+epoch 1 step 6500/78124 loss 0.0873
+epoch 1 step 6550/78124 loss 0.0868
+epoch 1 step 6600/78124 loss 0.0862
+epoch 1 step 6650/78124 loss 0.0857
+epoch 1 step 6700/78124 loss 0.0851
+epoch 1 step 6750/78124 loss 0.0846
+epoch 1 step 6800/78124 loss 0.0841
+epoch 1 step 6850/78124 loss 0.0836
+epoch 1 step 6900/78124 loss 0.0831
+epoch 1 step 6950/78124 loss 0.0826
+epoch 1 step 7000/78124 loss 0.0820
+epoch 1 step 7050/78124 loss 0.0816
+epoch 1 step 7100/78124 loss 0.0811
+epoch 1 step 7150/78124 loss 0.0806
+epoch 1 step 7200/78124 loss 0.0802
+epoch 1 step 7250/78124 loss 0.0797
+epoch 1 step 7300/78124 loss 0.0793
+epoch 1 step 7350/78124 loss 0.0788
+epoch 1 step 7400/78124 loss 0.0784
+epoch 1 step 7450/78124 loss 0.0780
+epoch 1 step 7500/78124 loss 0.0775
+epoch 1 step 7550/78124 loss 0.0771
+epoch 1 step 7600/78124 loss 0.0766
+epoch 1 step 7650/78124 loss 0.0762
+epoch 1 step 7700/78124 loss 0.0757
+epoch 1 step 7750/78124 loss 0.0753
+epoch 1 step 7800/78124 loss 0.0749
+epoch 1 step 7850/78124 loss 0.0745
+epoch 1 step 7900/78124 loss 0.0741
+epoch 1 step 7950/78124 loss 0.0737
+epoch 1 step 8000/78124 loss 0.0733
+epoch 1 step 8050/78124 loss 0.0730
+epoch 1 step 8100/78124 loss 0.0726
+epoch 1 step 8150/78124 loss 0.0722
+epoch 1 step 8200/78124 loss 0.0719
+epoch 1 step 8250/78124 loss 0.0715
+epoch 1 step 8300/78124 loss 0.0712
+epoch 1 step 8350/78124 loss 0.0708
+epoch 1 step 8400/78124 loss 0.0705
+epoch 1 step 8450/78124 loss 0.0701
+epoch 1 step 8500/78124 loss 0.0698
+epoch 1 step 8550/78124 loss 0.0694
+epoch 1 step 8600/78124 loss 0.0691
+epoch 1 step 8650/78124 loss 0.0687
+epoch 1 step 8700/78124 loss 0.0684
+epoch 1 step 8750/78124 loss 0.0681
+epoch 1 step 8800/78124 loss 0.0677
+epoch 1 step 8850/78124 loss 0.0674
+epoch 1 step 8900/78124 loss 0.0671
+epoch 1 step 8950/78124 loss 0.0667
+epoch 1 step 9000/78124 loss 0.0664
+epoch 1 step 9050/78124 loss 0.0661
+epoch 1 step 9100/78124 loss 0.0658
+epoch 1 step 9150/78124 loss 0.0655
+epoch 1 step 9200/78124 loss 0.0652
+epoch 1 step 9250/78124 loss 0.0649
+epoch 1 step 9300/78124 loss 0.0646
+epoch 1 step 9350/78124 loss 0.0643
+epoch 1 step 9400/78124 loss 0.0641
+epoch 1 step 9450/78124 loss 0.0638
+epoch 1 step 9500/78124 loss 0.0635
+epoch 1 step 9550/78124 loss 0.0632
+epoch 1 step 9600/78124 loss 0.0629
+epoch 1 step 9650/78124 loss 0.0627
+epoch 1 step 9700/78124 loss 0.0624
+epoch 1 step 9750/78124 loss 0.0621
+epoch 1 step 9800/78124 loss 0.0619
+epoch 1 step 9850/78124 loss 0.0616
+epoch 1 step 9900/78124 loss 0.0613
+epoch 1 step 9950/78124 loss 0.0611
+epoch 1 step 10000/78124 loss 0.0608
+{'epoch': 1, 'step': 10000, 'train_loss': 0.060817228216677906, 'calib_nll': 0.044403839856386185}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.72s/it]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.72s/it]
+epoch 1 step 10050/78124 loss 0.0606
+epoch 1 step 10100/78124 loss 0.0603
+epoch 1 step 10150/78124 loss 0.0600
+epoch 1 step 10200/78124 loss 0.0598
+epoch 1 step 10250/78124 loss 0.0596
+epoch 1 step 10300/78124 loss 0.0593
+epoch 1 step 10350/78124 loss 0.0591
+epoch 1 step 10400/78124 loss 0.0588
+epoch 1 step 10450/78124 loss 0.0586
+epoch 1 step 10500/78124 loss 0.0583
+epoch 1 step 10550/78124 loss 0.0581
+epoch 1 step 10600/78124 loss 0.0579
+epoch 1 step 10650/78124 loss 0.0576
+epoch 1 step 10700/78124 loss 0.0574
+epoch 1 step 10750/78124 loss 0.0572
+epoch 1 step 10800/78124 loss 0.0570
+epoch 1 step 10850/78124 loss 0.0568
+epoch 1 step 10900/78124 loss 0.0566
+epoch 1 step 10950/78124 loss 0.0563
+epoch 1 step 11000/78124 loss 0.0561
+epoch 1 step 11050/78124 loss 0.0559
+epoch 1 step 11100/78124 loss 0.0557
+epoch 1 step 11150/78124 loss 0.0555
+epoch 1 step 11200/78124 loss 0.0553
+epoch 1 step 11250/78124 loss 0.0550
+epoch 1 step 11300/78124 loss 0.0548
+epoch 1 step 11350/78124 loss 0.0546
+epoch 1 step 11400/78124 loss 0.0544
+epoch 1 step 11450/78124 loss 0.0542
+epoch 1 step 11500/78124 loss 0.0541
+epoch 1 step 11550/78124 loss 0.0539
+epoch 1 step 11600/78124 loss 0.0536
+epoch 1 step 11650/78124 loss 0.0535
+epoch 1 step 11700/78124 loss 0.0533
+epoch 1 step 11750/78124 loss 0.0531
+epoch 1 step 11800/78124 loss 0.0529
+epoch 1 step 11850/78124 loss 0.0527
+epoch 1 step 11900/78124 loss 0.0525
+epoch 1 step 11950/78124 loss 0.0523
+epoch 1 step 12000/78124 loss 0.0521
+epoch 1 step 12050/78124 loss 0.0520
+epoch 1 step 12100/78124 loss 0.0518
+epoch 1 step 12150/78124 loss 0.0516
+epoch 1 step 12200/78124 loss 0.0514
+epoch 1 step 12250/78124 loss 0.0513
+epoch 1 step 12300/78124 loss 0.0511
+epoch 1 step 12350/78124 loss 0.0509
+epoch 1 step 12400/78124 loss 0.0508
+epoch 1 step 12450/78124 loss 0.0506
+epoch 1 step 12500/78124 loss 0.0504
+epoch 1 step 12550/78124 loss 0.0503
+epoch 1 step 12600/78124 loss 0.0501
+epoch 1 step 12650/78124 loss 0.0499
+epoch 1 step 12700/78124 loss 0.0498
+epoch 1 step 12750/78124 loss 0.0496
+epoch 1 step 12800/78124 loss 0.0494
+epoch 1 step 12850/78124 loss 0.0493
+epoch 1 step 12900/78124 loss 0.0491
+epoch 1 step 12950/78124 loss 0.0490
+epoch 1 step 13000/78124 loss 0.0488
+epoch 1 step 13050/78124 loss 0.0486
+epoch 1 step 13100/78124 loss 0.0485
+epoch 1 step 13150/78124 loss 0.0483
+epoch 1 step 13200/78124 loss 0.0482
+epoch 1 step 13250/78124 loss 0.0480
+epoch 1 step 13300/78124 loss 0.0479
+epoch 1 step 13350/78124 loss 0.0477
+epoch 1 step 13400/78124 loss 0.0476
+epoch 1 step 13450/78124 loss 0.0474
+epoch 1 step 13500/78124 loss 0.0473
+epoch 1 step 13550/78124 loss 0.0472
+epoch 1 step 13600/78124 loss 0.0470
+epoch 1 step 13650/78124 loss 0.0469
+epoch 1 step 13700/78124 loss 0.0467
+epoch 1 step 13750/78124 loss 0.0466
+epoch 1 step 13800/78124 loss 0.0464
+epoch 1 step 13850/78124 loss 0.0463
+epoch 1 step 13900/78124 loss 0.0462
+epoch 1 step 13950/78124 loss 0.0460
+epoch 1 step 14000/78124 loss 0.0459
+epoch 1 step 14050/78124 loss 0.0458
+epoch 1 step 14100/78124 loss 0.0456
+epoch 1 step 14150/78124 loss 0.0455
+epoch 1 step 14200/78124 loss 0.0454
+epoch 1 step 14250/78124 loss 0.0453
+epoch 1 step 14300/78124 loss 0.0451
+epoch 1 step 14350/78124 loss 0.0450
+epoch 1 step 14400/78124 loss 0.0449
+epoch 1 step 14450/78124 loss 0.0448
+epoch 1 step 14500/78124 loss 0.0446
+epoch 1 step 14550/78124 loss 0.0445
+epoch 1 step 14600/78124 loss 0.0444
+epoch 1 step 14650/78124 loss 0.0442
+epoch 1 step 14700/78124 loss 0.0441
+epoch 1 step 14750/78124 loss 0.0440
+epoch 1 step 14800/78124 loss 0.0438
+epoch 1 step 14850/78124 loss 0.0437
+epoch 1 step 14900/78124 loss 0.0436
+epoch 1 step 14950/78124 loss 0.0435
+epoch 1 step 15000/78124 loss 0.0434
+epoch 1 step 15050/78124 loss 0.0433
+epoch 1 step 15100/78124 loss 0.0431
+epoch 1 step 15150/78124 loss 0.0430
+epoch 1 step 15200/78124 loss 0.0429
+epoch 1 step 15250/78124 loss 0.0428
+epoch 1 step 15300/78124 loss 0.0427
+epoch 1 step 15350/78124 loss 0.0426
+epoch 1 step 15400/78124 loss 0.0425
+epoch 1 step 15450/78124 loss 0.0423
+epoch 1 step 15500/78124 loss 0.0422
+epoch 1 step 15550/78124 loss 0.0421
+epoch 1 step 15600/78124 loss 0.0420
+epoch 1 step 15650/78124 loss 0.0419
+epoch 1 step 15700/78124 loss 0.0418
+epoch 1 step 15750/78124 loss 0.0417
+epoch 1 step 15800/78124 loss 0.0416
+epoch 1 step 15850/78124 loss 0.0414
+epoch 1 step 15900/78124 loss 0.0413
+epoch 1 step 15950/78124 loss 0.0412
+epoch 1 step 16000/78124 loss 0.0411
+epoch 1 step 16050/78124 loss 0.0410
+epoch 1 step 16100/78124 loss 0.0409
+epoch 1 step 16150/78124 loss 0.0408
+epoch 1 step 16200/78124 loss 0.0407
+epoch 1 step 16250/78124 loss 0.0406
+epoch 1 step 16300/78124 loss 0.0405
+epoch 1 step 16350/78124 loss 0.0404
+epoch 1 step 16400/78124 loss 0.0403
+epoch 1 step 16450/78124 loss 0.0402
+epoch 1 step 16500/78124 loss 0.0401
+epoch 1 step 16550/78124 loss 0.0400
+epoch 1 step 16600/78124 loss 0.0399
+epoch 1 step 16650/78124 loss 0.0398
+epoch 1 step 16700/78124 loss 0.0397
+epoch 1 step 16750/78124 loss 0.0396
+epoch 1 step 16800/78124 loss 0.0395
+epoch 1 step 16850/78124 loss 0.0394
+epoch 1 step 16900/78124 loss 0.0393
+epoch 1 step 16950/78124 loss 0.0392
+epoch 1 step 17000/78124 loss 0.0391
+epoch 1 step 17050/78124 loss 0.0390
+epoch 1 step 17100/78124 loss 0.0389
+epoch 1 step 17150/78124 loss 0.0388
+epoch 1 step 17200/78124 loss 0.0387
+epoch 1 step 17250/78124 loss 0.0386
+epoch 1 step 17300/78124 loss 0.0385
+epoch 1 step 17350/78124 loss 0.0384
+epoch 1 step 17400/78124 loss 0.0383
+epoch 1 step 17450/78124 loss 0.0382
+epoch 1 step 17500/78124 loss 0.0381
+epoch 1 step 17550/78124 loss 0.0381
+epoch 1 step 17600/78124 loss 0.0380
+epoch 1 step 17650/78124 loss 0.0379
+epoch 1 step 17700/78124 loss 0.0378
+epoch 1 step 17750/78124 loss 0.0377
+epoch 1 step 17800/78124 loss 0.0376
+epoch 1 step 17850/78124 loss 0.0375
+epoch 1 step 17900/78124 loss 0.0374
+epoch 1 step 17950/78124 loss 0.0374
+epoch 1 step 18000/78124 loss 0.0373
+epoch 1 step 18050/78124 loss 0.0372
+epoch 1 step 18100/78124 loss 0.0371
+epoch 1 step 18150/78124 loss 0.0370
+epoch 1 step 18200/78124 loss 0.0369
+epoch 1 step 18250/78124 loss 0.0369
+epoch 1 step 18300/78124 loss 0.0368
+epoch 1 step 18350/78124 loss 0.0367
+epoch 1 step 18400/78124 loss 0.0366
+epoch 1 step 18450/78124 loss 0.0365
+epoch 1 step 18500/78124 loss 0.0364
+epoch 1 step 18550/78124 loss 0.0364
+epoch 1 step 18600/78124 loss 0.0363
+epoch 1 step 18650/78124 loss 0.0362
+epoch 1 step 18700/78124 loss 0.0361
+epoch 1 step 18750/78124 loss 0.0361
+epoch 1 step 18800/78124 loss 0.0360
+epoch 1 step 18850/78124 loss 0.0359
+epoch 1 step 18900/78124 loss 0.0358
+epoch 1 step 18950/78124 loss 0.0358
+epoch 1 step 19000/78124 loss 0.0357
+epoch 1 step 19050/78124 loss 0.0356
+epoch 1 step 19100/78124 loss 0.0355
+epoch 1 step 19150/78124 loss 0.0355
+epoch 1 step 19200/78124 loss 0.0354
+epoch 1 step 19250/78124 loss 0.0353
+epoch 1 step 19300/78124 loss 0.0352
+epoch 1 step 19350/78124 loss 0.0352
+epoch 1 step 19400/78124 loss 0.0351
+epoch 1 step 19450/78124 loss 0.0350
+epoch 1 step 19500/78124 loss 0.0349
+epoch 1 step 19550/78124 loss 0.0349
+epoch 1 step 19600/78124 loss 0.0348
+epoch 1 step 19650/78124 loss 0.0347
+epoch 1 step 19700/78124 loss 0.0347
+epoch 1 step 19750/78124 loss 0.0346
+epoch 1 step 19800/78124 loss 0.0345
+epoch 1 step 19850/78124 loss 0.0345
+epoch 1 step 19900/78124 loss 0.0344
+epoch 1 step 19950/78124 loss 0.0343
+epoch 1 step 20000/78124 loss 0.0343
+{'epoch': 1, 'step': 20000, 'train_loss': 0.03426659299342964, 'calib_nll': 0.026715483516454697}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.67s/it]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.67s/it]
+epoch 1 step 20050/78124 loss 0.0342
+epoch 1 step 20100/78124 loss 0.0341
+epoch 1 step 20150/78124 loss 0.0341
+epoch 1 step 20200/78124 loss 0.0340
+epoch 1 step 20250/78124 loss 0.0339
+epoch 1 step 20300/78124 loss 0.0339
+epoch 1 step 20350/78124 loss 0.0338
+epoch 1 step 20400/78124 loss 0.0337
+epoch 1 step 20450/78124 loss 0.0337
+epoch 1 step 20500/78124 loss 0.0336
+epoch 1 step 20550/78124 loss 0.0335
+epoch 1 step 20600/78124 loss 0.0335
+epoch 1 step 20650/78124 loss 0.0334
+epoch 1 step 20700/78124 loss 0.0333
+epoch 1 step 20750/78124 loss 0.0333
+epoch 1 step 20800/78124 loss 0.0332
+epoch 1 step 20850/78124 loss 0.0331
+epoch 1 step 20900/78124 loss 0.0331
+epoch 1 step 20950/78124 loss 0.0330
+epoch 1 step 21000/78124 loss 0.0329
+epoch 1 step 21050/78124 loss 0.0329
+epoch 1 step 21100/78124 loss 0.0328
+epoch 1 step 21150/78124 loss 0.0327
+epoch 1 step 21200/78124 loss 0.0327
+epoch 1 step 21250/78124 loss 0.0326
+epoch 1 step 21300/78124 loss 0.0326
+epoch 1 step 21350/78124 loss 0.0325
+epoch 1 step 21400/78124 loss 0.0325
+epoch 1 step 21450/78124 loss 0.0324
+epoch 1 step 21500/78124 loss 0.0323
+epoch 1 step 21550/78124 loss 0.0323
+epoch 1 step 21600/78124 loss 0.0322
+epoch 1 step 21650/78124 loss 0.0322
+epoch 1 step 21700/78124 loss 0.0321
+epoch 1 step 21750/78124 loss 0.0320
+epoch 1 step 21800/78124 loss 0.0320
+epoch 1 step 21850/78124 loss 0.0319
+epoch 1 step 21900/78124 loss 0.0319
+epoch 1 step 21950/78124 loss 0.0318
+epoch 1 step 22000/78124 loss 0.0318
+epoch 1 step 22050/78124 loss 0.0317
+epoch 1 step 22100/78124 loss 0.0316
+epoch 1 step 22150/78124 loss 0.0316
+epoch 1 step 22200/78124 loss 0.0315
+epoch 1 step 22250/78124 loss 0.0315
+epoch 1 step 22300/78124 loss 0.0314
+epoch 1 step 22350/78124 loss 0.0314
+epoch 1 step 22400/78124 loss 0.0313
+epoch 1 step 22450/78124 loss 0.0313
+epoch 1 step 22500/78124 loss 0.0312
+epoch 1 step 22550/78124 loss 0.0312
+epoch 1 step 22600/78124 loss 0.0311
+epoch 1 step 22650/78124 loss 0.0311
+epoch 1 step 22700/78124 loss 0.0310
+epoch 1 step 22750/78124 loss 0.0309
+epoch 1 step 22800/78124 loss 0.0309
+epoch 1 step 22850/78124 loss 0.0309
+epoch 1 step 22900/78124 loss 0.0308
+epoch 1 step 22950/78124 loss 0.0308
+epoch 1 step 23000/78124 loss 0.0307
+epoch 1 step 23050/78124 loss 0.0306
+epoch 1 step 23100/78124 loss 0.0306
+epoch 1 step 23150/78124 loss 0.0306
+epoch 1 step 23200/78124 loss 0.0305
+epoch 1 step 23250/78124 loss 0.0304
+epoch 1 step 23300/78124 loss 0.0304
+epoch 1 step 23350/78124 loss 0.0303
+epoch 1 step 23400/78124 loss 0.0303
+epoch 1 step 23450/78124 loss 0.0302
+epoch 1 step 23500/78124 loss 0.0302
+epoch 1 step 23550/78124 loss 0.0302
+epoch 1 step 23600/78124 loss 0.0301
+epoch 1 step 23650/78124 loss 0.0301
+epoch 1 step 23700/78124 loss 0.0300
+epoch 1 step 23750/78124 loss 0.0300
+epoch 1 step 23800/78124 loss 0.0299
+epoch 1 step 23850/78124 loss 0.0299
+epoch 1 step 23900/78124 loss 0.0298
+epoch 1 step 23950/78124 loss 0.0298
+epoch 1 step 24000/78124 loss 0.0297
+epoch 1 step 24050/78124 loss 0.0297
+epoch 1 step 24100/78124 loss 0.0296
+epoch 1 step 24150/78124 loss 0.0296
+epoch 1 step 24200/78124 loss 0.0295
+epoch 1 step 24250/78124 loss 0.0295
+epoch 1 step 24300/78124 loss 0.0294
+epoch 1 step 24350/78124 loss 0.0294
+epoch 1 step 24400/78124 loss 0.0293
+epoch 1 step 24450/78124 loss 0.0293
+epoch 1 step 24500/78124 loss 0.0293
+epoch 1 step 24550/78124 loss 0.0292
+epoch 1 step 24600/78124 loss 0.0292
+epoch 1 step 24650/78124 loss 0.0291
+epoch 1 step 24700/78124 loss 0.0291
+epoch 1 step 24750/78124 loss 0.0290
+epoch 1 step 24800/78124 loss 0.0290
+epoch 1 step 24850/78124 loss 0.0290
+epoch 1 step 24900/78124 loss 0.0289
+epoch 1 step 24950/78124 loss 0.0289
+epoch 1 step 25000/78124 loss 0.0288
+epoch 1 step 25050/78124 loss 0.0288
+epoch 1 step 25100/78124 loss 0.0287
+epoch 1 step 25150/78124 loss 0.0287
+epoch 1 step 25200/78124 loss 0.0287
+epoch 1 step 25250/78124 loss 0.0286
+epoch 1 step 25300/78124 loss 0.0286
+epoch 1 step 25350/78124 loss 0.0285
+epoch 1 step 25400/78124 loss 0.0285
+epoch 1 step 25450/78124 loss 0.0285
+epoch 1 step 25500/78124 loss 0.0284
+epoch 1 step 25550/78124 loss 0.0284
+epoch 1 step 25600/78124 loss 0.0283
+epoch 1 step 25650/78124 loss 0.0283
+epoch 1 step 25700/78124 loss 0.0283
+epoch 1 step 25750/78124 loss 0.0282
+epoch 1 step 25800/78124 loss 0.0282
+epoch 1 step 25850/78124 loss 0.0281
+epoch 1 step 25900/78124 loss 0.0281
+epoch 1 step 25950/78124 loss 0.0280
+epoch 1 step 26000/78124 loss 0.0280
+epoch 1 step 26050/78124 loss 0.0280
+epoch 1 step 26100/78124 loss 0.0279
+epoch 1 step 26150/78124 loss 0.0279
+epoch 1 step 26200/78124 loss 0.0279
+epoch 1 step 26250/78124 loss 0.0278
+epoch 1 step 26300/78124 loss 0.0278
+epoch 1 step 26350/78124 loss 0.0277
+epoch 1 step 26400/78124 loss 0.0277
+epoch 1 step 26450/78124 loss 0.0277
+epoch 1 step 26500/78124 loss 0.0276
+epoch 1 step 26550/78124 loss 0.0276
+epoch 1 step 26600/78124 loss 0.0275
+epoch 1 step 26650/78124 loss 0.0275
+epoch 1 step 26700/78124 loss 0.0275
+epoch 1 step 26750/78124 loss 0.0274
+epoch 1 step 26800/78124 loss 0.0274
+epoch 1 step 26850/78124 loss 0.0273
+epoch 1 step 26900/78124 loss 0.0273
+epoch 1 step 26950/78124 loss 0.0273
+epoch 1 step 27000/78124 loss 0.0272
+epoch 1 step 27050/78124 loss 0.0272
+epoch 1 step 27100/78124 loss 0.0272
+epoch 1 step 27150/78124 loss 0.0271
+epoch 1 step 27200/78124 loss 0.0271
+epoch 1 step 27250/78124 loss 0.0271
+epoch 1 step 27300/78124 loss 0.0270
+epoch 1 step 27350/78124 loss 0.0270
+epoch 1 step 27400/78124 loss 0.0270
+epoch 1 step 27450/78124 loss 0.0269
+epoch 1 step 27500/78124 loss 0.0269
+epoch 1 step 27550/78124 loss 0.0269
+epoch 1 step 27600/78124 loss 0.0268
+epoch 1 step 27650/78124 loss 0.0268
+epoch 1 step 27700/78124 loss 0.0267
+epoch 1 step 27750/78124 loss 0.0267
+epoch 1 step 27800/78124 loss 0.0267
+epoch 1 step 27850/78124 loss 0.0266
+epoch 1 step 27900/78124 loss 0.0266
+epoch 1 step 27950/78124 loss 0.0266
+epoch 1 step 28000/78124 loss 0.0265
+epoch 1 step 28050/78124 loss 0.0265
+epoch 1 step 28100/78124 loss 0.0265
+epoch 1 step 28150/78124 loss 0.0264
+epoch 1 step 28200/78124 loss 0.0264
+epoch 1 step 28250/78124 loss 0.0264
+epoch 1 step 28300/78124 loss 0.0263
+epoch 1 step 28350/78124 loss 0.0263
+epoch 1 step 28400/78124 loss 0.0262
+epoch 1 step 28450/78124 loss 0.0262
+epoch 1 step 28500/78124 loss 0.0262
+epoch 1 step 28550/78124 loss 0.0261
+epoch 1 step 28600/78124 loss 0.0261
+epoch 1 step 28650/78124 loss 0.0261
+epoch 1 step 28700/78124 loss 0.0260
+epoch 1 step 28750/78124 loss 0.0260
+epoch 1 step 28800/78124 loss 0.0259
+epoch 1 step 28850/78124 loss 0.0259
+epoch 1 step 28900/78124 loss 0.0259
+epoch 1 step 28950/78124 loss 0.0258
+epoch 1 step 29000/78124 loss 0.0258
+epoch 1 step 29050/78124 loss 0.0258
+epoch 1 step 29100/78124 loss 0.0257
+epoch 1 step 29150/78124 loss 0.0257
+epoch 1 step 29200/78124 loss 0.0256
+epoch 1 step 29250/78124 loss 0.0256
+epoch 1 step 29300/78124 loss 0.0256
+epoch 1 step 29350/78124 loss 0.0255
+epoch 1 step 29400/78124 loss 0.0255
+epoch 1 step 29450/78124 loss 0.0255
+epoch 1 step 29500/78124 loss 0.0254
+epoch 1 step 29550/78124 loss 0.0254
+epoch 1 step 29600/78124 loss 0.0254
+epoch 1 step 29650/78124 loss 0.0253
+epoch 1 step 29700/78124 loss 0.0253
+epoch 1 step 29750/78124 loss 0.0253
+epoch 1 step 29800/78124 loss 0.0252
+epoch 1 step 29850/78124 loss 0.0252
+epoch 1 step 29900/78124 loss 0.0252
+epoch 1 step 29950/78124 loss 0.0251
+epoch 1 step 30000/78124 loss 0.0251
+{'epoch': 1, 'step': 30000, 'train_loss': 0.025100213617916232, 'calib_nll': 0.015104643069207668}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.72s/it]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.72s/it]
+epoch 1 step 30050/78124 loss 0.0251
+epoch 1 step 30100/78124 loss 0.0250
+epoch 1 step 30150/78124 loss 0.0250
+epoch 1 step 30200/78124 loss 0.0250
+epoch 1 step 30250/78124 loss 0.0249
+epoch 1 step 30300/78124 loss 0.0249
+epoch 1 step 30350/78124 loss 0.0249
+epoch 1 step 30400/78124 loss 0.0248
+epoch 1 step 30450/78124 loss 0.0248
+epoch 1 step 30500/78124 loss 0.0248
+epoch 1 step 30550/78124 loss 0.0247
+epoch 1 step 30600/78124 loss 0.0247
+epoch 1 step 30650/78124 loss 0.0247
+epoch 1 step 30700/78124 loss 0.0246
+epoch 1 step 30750/78124 loss 0.0246
+epoch 1 step 30800/78124 loss 0.0246
+epoch 1 step 30850/78124 loss 0.0245
+epoch 1 step 30900/78124 loss 0.0245
+epoch 1 step 30950/78124 loss 0.0245
+epoch 1 step 31000/78124 loss 0.0245
+epoch 1 step 31050/78124 loss 0.0244
+epoch 1 step 31100/78124 loss 0.0244
+epoch 1 step 31150/78124 loss 0.0244
+epoch 1 step 31200/78124 loss 0.0243
+epoch 1 step 31250/78124 loss 0.0243
+epoch 1 step 31300/78124 loss 0.0243
+epoch 1 step 31350/78124 loss 0.0242
+epoch 1 step 31400/78124 loss 0.0242
+epoch 1 step 31450/78124 loss 0.0242
+epoch 1 step 31500/78124 loss 0.0241
+epoch 1 step 31550/78124 loss 0.0241
+epoch 1 step 31600/78124 loss 0.0241
+epoch 1 step 31650/78124 loss 0.0240
+epoch 1 step 31700/78124 loss 0.0240
+epoch 1 step 31750/78124 loss 0.0240
+epoch 1 step 31800/78124 loss 0.0239
+epoch 1 step 31850/78124 loss 0.0239
+epoch 1 step 31900/78124 loss 0.0239
+epoch 1 step 31950/78124 loss 0.0238
+epoch 1 step 32000/78124 loss 0.0238
+epoch 1 step 32050/78124 loss 0.0238
+epoch 1 step 32100/78124 loss 0.0237
+epoch 1 step 32150/78124 loss 0.0237
+epoch 1 step 32200/78124 loss 0.0237
+epoch 1 step 32250/78124 loss 0.0237
+epoch 1 step 32300/78124 loss 0.0236
+epoch 1 step 32350/78124 loss 0.0236
+epoch 1 step 32400/78124 loss 0.0236
+epoch 1 step 32450/78124 loss 0.0235
+epoch 1 step 32500/78124 loss 0.0235
+epoch 1 step 32550/78124 loss 0.0235
+epoch 1 step 32600/78124 loss 0.0234
+epoch 1 step 32650/78124 loss 0.0234
+epoch 1 step 32700/78124 loss 0.0234
+epoch 1 step 32750/78124 loss 0.0233
+epoch 1 step 32800/78124 loss 0.0233
+epoch 1 step 32850/78124 loss 0.0233
+epoch 1 step 32900/78124 loss 0.0233
+epoch 1 step 32950/78124 loss 0.0232
+epoch 1 step 33000/78124 loss 0.0232
+epoch 1 step 33050/78124 loss 0.0232
+epoch 1 step 33100/78124 loss 0.0231
+epoch 1 step 33150/78124 loss 0.0231
+epoch 1 step 33200/78124 loss 0.0231
+epoch 1 step 33250/78124 loss 0.0230
+epoch 1 step 33300/78124 loss 0.0230
+epoch 1 step 33350/78124 loss 0.0230
+epoch 1 step 33400/78124 loss 0.0230
+epoch 1 step 33450/78124 loss 0.0229
+epoch 1 step 33500/78124 loss 0.0229
+epoch 1 step 33550/78124 loss 0.0229
+epoch 1 step 33600/78124 loss 0.0228
+epoch 1 step 33650/78124 loss 0.0228
+epoch 1 step 33700/78124 loss 0.0228
+epoch 1 step 33750/78124 loss 0.0228
+epoch 1 step 33800/78124 loss 0.0227
+epoch 1 step 33850/78124 loss 0.0227
+epoch 1 step 33900/78124 loss 0.0227
+epoch 1 step 33950/78124 loss 0.0226
+epoch 1 step 34000/78124 loss 0.0226
+epoch 1 step 34050/78124 loss 0.0226
+epoch 1 step 34100/78124 loss 0.0225
+epoch 1 step 34150/78124 loss 0.0225
+epoch 1 step 34200/78124 loss 0.0225
+epoch 1 step 34250/78124 loss 0.0225
+epoch 1 step 34300/78124 loss 0.0224
+epoch 1 step 34350/78124 loss 0.0224
+epoch 1 step 34400/78124 loss 0.0224
+epoch 1 step 34450/78124 loss 0.0224
+epoch 1 step 34500/78124 loss 0.0223
+epoch 1 step 34550/78124 loss 0.0223
+epoch 1 step 34600/78124 loss 0.0223
+epoch 1 step 34650/78124 loss 0.0222
+epoch 1 step 34700/78124 loss 0.0222
+epoch 1 step 34750/78124 loss 0.0222
+epoch 1 step 34800/78124 loss 0.0222
+epoch 1 step 34850/78124 loss 0.0221
+epoch 1 step 34900/78124 loss 0.0221
+epoch 1 step 34950/78124 loss 0.0221
+epoch 1 step 35000/78124 loss 0.0221
+epoch 1 step 35050/78124 loss 0.0220
+epoch 1 step 35100/78124 loss 0.0220
+epoch 1 step 35150/78124 loss 0.0220
+epoch 1 step 35200/78124 loss 0.0220
+epoch 1 step 35250/78124 loss 0.0219
+epoch 1 step 35300/78124 loss 0.0219
+epoch 1 step 35350/78124 loss 0.0219
+epoch 1 step 35400/78124 loss 0.0219
+epoch 1 step 35450/78124 loss 0.0218
+epoch 1 step 35500/78124 loss 0.0218
+epoch 1 step 35550/78124 loss 0.0218
+epoch 1 step 35600/78124 loss 0.0218
+epoch 1 step 35650/78124 loss 0.0217
+epoch 1 step 35700/78124 loss 0.0217
+epoch 1 step 35750/78124 loss 0.0217
+epoch 1 step 35800/78124 loss 0.0216
+epoch 1 step 35850/78124 loss 0.0216
+epoch 1 step 35900/78124 loss 0.0216
+epoch 1 step 35950/78124 loss 0.0216
+epoch 1 step 36000/78124 loss 0.0215
+epoch 1 step 36050/78124 loss 0.0215
+epoch 1 step 36100/78124 loss 0.0215
+epoch 1 step 36150/78124 loss 0.0215
+epoch 1 step 36200/78124 loss 0.0214
+epoch 1 step 36250/78124 loss 0.0214
+epoch 1 step 36300/78124 loss 0.0214
+epoch 1 step 36350/78124 loss 0.0214
+epoch 1 step 36400/78124 loss 0.0213
+epoch 1 step 36450/78124 loss 0.0213
+epoch 1 step 36500/78124 loss 0.0213
+epoch 1 step 36550/78124 loss 0.0213
+epoch 1 step 36600/78124 loss 0.0212
+epoch 1 step 36650/78124 loss 0.0212
+epoch 1 step 36700/78124 loss 0.0212
+epoch 1 step 36750/78124 loss 0.0212
+epoch 1 step 36800/78124 loss 0.0212
+epoch 1 step 36850/78124 loss 0.0211
+epoch 1 step 36900/78124 loss 0.0211
+epoch 1 step 36950/78124 loss 0.0211
+epoch 1 step 37000/78124 loss 0.0211
+epoch 1 step 37050/78124 loss 0.0210
+epoch 1 step 37100/78124 loss 0.0210
+epoch 1 step 37150/78124 loss 0.0210
+epoch 1 step 37200/78124 loss 0.0210
+epoch 1 step 37250/78124 loss 0.0209
+epoch 1 step 37300/78124 loss 0.0209
+epoch 1 step 37350/78124 loss 0.0209
+epoch 1 step 37400/78124 loss 0.0209
+epoch 1 step 37450/78124 loss 0.0208
+epoch 1 step 37500/78124 loss 0.0208
+epoch 1 step 37550/78124 loss 0.0208
+epoch 1 step 37600/78124 loss 0.0208
+epoch 1 step 37650/78124 loss 0.0207
+epoch 1 step 37700/78124 loss 0.0207
+epoch 1 step 37750/78124 loss 0.0207
+epoch 1 step 37800/78124 loss 0.0207
+epoch 1 step 37850/78124 loss 0.0207
+epoch 1 step 37900/78124 loss 0.0206
+epoch 1 step 37950/78124 loss 0.0206
+epoch 1 step 38000/78124 loss 0.0206
+epoch 1 step 38050/78124 loss 0.0206
+epoch 1 step 38100/78124 loss 0.0205
+epoch 1 step 38150/78124 loss 0.0205
+epoch 1 step 38200/78124 loss 0.0205
+epoch 1 step 38250/78124 loss 0.0205
+epoch 1 step 38300/78124 loss 0.0204
+epoch 1 step 38350/78124 loss 0.0204
+epoch 1 step 38400/78124 loss 0.0204
+epoch 1 step 38450/78124 loss 0.0204
+epoch 1 step 38500/78124 loss 0.0204
+epoch 1 step 38550/78124 loss 0.0203
+epoch 1 step 38600/78124 loss 0.0203
+epoch 1 step 38650/78124 loss 0.0203
+epoch 1 step 38700/78124 loss 0.0203
+epoch 1 step 38750/78124 loss 0.0202
+epoch 1 step 38800/78124 loss 0.0202
+epoch 1 step 38850/78124 loss 0.0202
+epoch 1 step 38900/78124 loss 0.0202
+epoch 1 step 38950/78124 loss 0.0202
+epoch 1 step 39000/78124 loss 0.0201
+epoch 1 step 39050/78124 loss 0.0201
+{'epoch': 1, 'step': 39062, 'train_loss': 0.020108310851814023, 'calib_nll': 0.01973811723291874}
+epoch 2 step 39100/78124 loss 0.0142
+epoch 2 step 39150/78124 loss 0.0107
+epoch 2 step 39200/78124 loss 0.0086
+epoch 2 step 39250/78124 loss 0.0077
+epoch 2 step 39300/78124 loss 0.0080
+epoch 2 step 39350/78124 loss 0.0078
+epoch 2 step 39400/78124 loss 0.0078
+epoch 2 step 39450/78124 loss 0.0084
+epoch 2 step 39500/78124 loss 0.0080
+epoch 2 step 39550/78124 loss 0.0081
+epoch 2 step 39600/78124 loss 0.0080
+epoch 2 step 39650/78124 loss 0.0081
+epoch 2 step 39700/78124 loss 0.0081
+epoch 2 step 39750/78124 loss 0.0080
+epoch 2 step 39800/78124 loss 0.0082
+epoch 2 step 39850/78124 loss 0.0082
+epoch 2 step 39900/78124 loss 0.0083
+epoch 2 step 39950/78124 loss 0.0084
+epoch 2 step 40000/78124 loss 0.0083
+{'epoch': 2, 'step': 40000, 'train_loss': 0.008280945069367714, 'calib_nll': 0.007665620185434818}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.72s/it]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.72s/it]
+epoch 2 step 40050/78124 loss 0.0082
+epoch 2 step 40100/78124 loss 0.0082
+epoch 2 step 40150/78124 loss 0.0082
+epoch 2 step 40200/78124 loss 0.0081
+epoch 2 step 40250/78124 loss 0.0083
+epoch 2 step 40300/78124 loss 0.0083
+epoch 2 step 40350/78124 loss 0.0084
+epoch 2 step 40400/78124 loss 0.0082
+epoch 2 step 40450/78124 loss 0.0084
+epoch 2 step 40500/78124 loss 0.0084
+epoch 2 step 40550/78124 loss 0.0084
+epoch 2 step 40600/78124 loss 0.0086
+epoch 2 step 40650/78124 loss 0.0086
+epoch 2 step 40700/78124 loss 0.0087
+epoch 2 step 40750/78124 loss 0.0087
+epoch 2 step 40800/78124 loss 0.0086
+epoch 2 step 40850/78124 loss 0.0087
+epoch 2 step 40900/78124 loss 0.0087
+epoch 2 step 40950/78124 loss 0.0088
+epoch 2 step 41000/78124 loss 0.0088
+epoch 2 step 41050/78124 loss 0.0086
+epoch 2 step 41100/78124 loss 0.0086
+epoch 2 step 41150/78124 loss 0.0086
+epoch 2 step 41200/78124 loss 0.0085
+epoch 2 step 41250/78124 loss 0.0085
+epoch 2 step 41300/78124 loss 0.0087
+epoch 2 step 41350/78124 loss 0.0087
+epoch 2 step 41400/78124 loss 0.0088
+epoch 2 step 41450/78124 loss 0.0087
+epoch 2 step 41500/78124 loss 0.0088
+epoch 2 step 41550/78124 loss 0.0088
+epoch 2 step 41600/78124 loss 0.0087
+epoch 2 step 41650/78124 loss 0.0087
+epoch 2 step 41700/78124 loss 0.0087
+epoch 2 step 41750/78124 loss 0.0087
+epoch 2 step 41800/78124 loss 0.0088
+epoch 2 step 41850/78124 loss 0.0087
+epoch 2 step 41900/78124 loss 0.0088
+epoch 2 step 41950/78124 loss 0.0087
+epoch 2 step 42000/78124 loss 0.0088
+epoch 2 step 42050/78124 loss 0.0087
+epoch 2 step 42100/78124 loss 0.0087
+epoch 2 step 42150/78124 loss 0.0086
+epoch 2 step 42200/78124 loss 0.0086
+epoch 2 step 42250/78124 loss 0.0086
+epoch 2 step 42300/78124 loss 0.0086
+epoch 2 step 42350/78124 loss 0.0085
+epoch 2 step 42400/78124 loss 0.0085
+epoch 2 step 42450/78124 loss 0.0085
+epoch 2 step 42500/78124 loss 0.0085
+epoch 2 step 42550/78124 loss 0.0084
+epoch 2 step 42600/78124 loss 0.0084
+epoch 2 step 42650/78124 loss 0.0084
+epoch 2 step 42700/78124 loss 0.0083
+epoch 2 step 42750/78124 loss 0.0083
+epoch 2 step 42800/78124 loss 0.0083
+epoch 2 step 42850/78124 loss 0.0083
+epoch 2 step 42900/78124 loss 0.0083
+epoch 2 step 42950/78124 loss 0.0082
+epoch 2 step 43000/78124 loss 0.0082
+epoch 2 step 43050/78124 loss 0.0082
+epoch 2 step 43100/78124 loss 0.0082
+epoch 2 step 43150/78124 loss 0.0082
+epoch 2 step 43200/78124 loss 0.0082
+epoch 2 step 43250/78124 loss 0.0081
+epoch 2 step 43300/78124 loss 0.0081
+epoch 2 step 43350/78124 loss 0.0081
+epoch 2 step 43400/78124 loss 0.0081
+epoch 2 step 43450/78124 loss 0.0082
+epoch 2 step 43500/78124 loss 0.0081
+epoch 2 step 43550/78124 loss 0.0081
+epoch 2 step 43600/78124 loss 0.0080
+epoch 2 step 43650/78124 loss 0.0080
+epoch 2 step 43700/78124 loss 0.0080
+epoch 2 step 43750/78124 loss 0.0080
+epoch 2 step 43800/78124 loss 0.0080
+epoch 2 step 43850/78124 loss 0.0080
+epoch 2 step 43900/78124 loss 0.0080
+epoch 2 step 43950/78124 loss 0.0080
+epoch 2 step 44000/78124 loss 0.0080
+epoch 2 step 44050/78124 loss 0.0080
+epoch 2 step 44100/78124 loss 0.0080
+epoch 2 step 44150/78124 loss 0.0080
+epoch 2 step 44200/78124 loss 0.0080
+epoch 2 step 44250/78124 loss 0.0081
+epoch 2 step 44300/78124 loss 0.0081
+epoch 2 step 44350/78124 loss 0.0080
+epoch 2 step 44400/78124 loss 0.0080
+epoch 2 step 44450/78124 loss 0.0080
+epoch 2 step 44500/78124 loss 0.0080
+epoch 2 step 44550/78124 loss 0.0080
+epoch 2 step 44600/78124 loss 0.0080
+epoch 2 step 44650/78124 loss 0.0079
+epoch 2 step 44700/78124 loss 0.0079
+epoch 2 step 44750/78124 loss 0.0080
+epoch 2 step 44800/78124 loss 0.0080
+epoch 2 step 44850/78124 loss 0.0080
+epoch 2 step 44900/78124 loss 0.0080
+epoch 2 step 44950/78124 loss 0.0079
+epoch 2 step 45000/78124 loss 0.0079
+epoch 2 step 45050/78124 loss 0.0079
+epoch 2 step 45100/78124 loss 0.0079
+epoch 2 step 45150/78124 loss 0.0080
+epoch 2 step 45200/78124 loss 0.0080
+epoch 2 step 45250/78124 loss 0.0080
+epoch 2 step 45300/78124 loss 0.0080
+epoch 2 step 45350/78124 loss 0.0080
+epoch 2 step 45400/78124 loss 0.0080
+epoch 2 step 45450/78124 loss 0.0080
+epoch 2 step 45500/78124 loss 0.0080
+epoch 2 step 45550/78124 loss 0.0079
+epoch 2 step 45600/78124 loss 0.0079
+epoch 2 step 45650/78124 loss 0.0079
+epoch 2 step 45700/78124 loss 0.0079
+epoch 2 step 45750/78124 loss 0.0079
+epoch 2 step 45800/78124 loss 0.0079
+epoch 2 step 45850/78124 loss 0.0079
+epoch 2 step 45900/78124 loss 0.0079
+epoch 2 step 45950/78124 loss 0.0078
+epoch 2 step 46000/78124 loss 0.0078
+epoch 2 step 46050/78124 loss 0.0079
+epoch 2 step 46100/78124 loss 0.0079
+epoch 2 step 46150/78124 loss 0.0079
+epoch 2 step 46200/78124 loss 0.0079
+epoch 2 step 46250/78124 loss 0.0079
+epoch 2 step 46300/78124 loss 0.0079
+epoch 2 step 46350/78124 loss 0.0079
+epoch 2 step 46400/78124 loss 0.0079
+epoch 2 step 46450/78124 loss 0.0079
+epoch 2 step 46500/78124 loss 0.0079
+epoch 2 step 46550/78124 loss 0.0078
+epoch 2 step 46600/78124 loss 0.0078
+epoch 2 step 46650/78124 loss 0.0078
+epoch 2 step 46700/78124 loss 0.0078
+epoch 2 step 46750/78124 loss 0.0078
+epoch 2 step 46800/78124 loss 0.0078
+epoch 2 step 46850/78124 loss 0.0078
+epoch 2 step 46900/78124 loss 0.0078
+epoch 2 step 46950/78124 loss 0.0078
+epoch 2 step 47000/78124 loss 0.0078
+epoch 2 step 47050/78124 loss 0.0077
+epoch 2 step 47100/78124 loss 0.0078
+epoch 2 step 47150/78124 loss 0.0077
+epoch 2 step 47200/78124 loss 0.0077
+epoch 2 step 47250/78124 loss 0.0077
+epoch 2 step 47300/78124 loss 0.0077
+epoch 2 step 47350/78124 loss 0.0077
+epoch 2 step 47400/78124 loss 0.0077
+epoch 2 step 47450/78124 loss 0.0077
+epoch 2 step 47500/78124 loss 0.0077
+epoch 2 step 47550/78124 loss 0.0077
+epoch 2 step 47600/78124 loss 0.0077
+epoch 2 step 47650/78124 loss 0.0077
+epoch 2 step 47700/78124 loss 0.0077
+epoch 2 step 47750/78124 loss 0.0077
+epoch 2 step 47800/78124 loss 0.0077
+epoch 2 step 47850/78124 loss 0.0077
+epoch 2 step 47900/78124 loss 0.0077
+epoch 2 step 47950/78124 loss 0.0077
+epoch 2 step 48000/78124 loss 0.0077
+epoch 2 step 48050/78124 loss 0.0077
+epoch 2 step 48100/78124 loss 0.0077
+epoch 2 step 48150/78124 loss 0.0077
+epoch 2 step 48200/78124 loss 0.0077
+epoch 2 step 48250/78124 loss 0.0077
+epoch 2 step 48300/78124 loss 0.0077
+epoch 2 step 48350/78124 loss 0.0077
+epoch 2 step 48400/78124 loss 0.0077
+epoch 2 step 48450/78124 loss 0.0077
+epoch 2 step 48500/78124 loss 0.0077
+epoch 2 step 48550/78124 loss 0.0077
+epoch 2 step 48600/78124 loss 0.0077
+epoch 2 step 48650/78124 loss 0.0077
+epoch 2 step 48700/78124 loss 0.0077
+epoch 2 step 48750/78124 loss 0.0077
+epoch 2 step 48800/78124 loss 0.0077
+epoch 2 step 48850/78124 loss 0.0076
+epoch 2 step 48900/78124 loss 0.0076
+epoch 2 step 48950/78124 loss 0.0076
+epoch 2 step 49000/78124 loss 0.0076
+epoch 2 step 49050/78124 loss 0.0076
+epoch 2 step 49100/78124 loss 0.0076
+epoch 2 step 49150/78124 loss 0.0076
+epoch 2 step 49200/78124 loss 0.0076
+epoch 2 step 49250/78124 loss 0.0076
+epoch 2 step 49300/78124 loss 0.0076
+epoch 2 step 49350/78124 loss 0.0076
+epoch 2 step 49400/78124 loss 0.0076
+epoch 2 step 49450/78124 loss 0.0076
+epoch 2 step 49500/78124 loss 0.0075
+epoch 2 step 49550/78124 loss 0.0075
+epoch 2 step 49600/78124 loss 0.0076
+epoch 2 step 49650/78124 loss 0.0076
+epoch 2 step 49700/78124 loss 0.0076
+epoch 2 step 49750/78124 loss 0.0076
+epoch 2 step 49800/78124 loss 0.0076
+epoch 2 step 49850/78124 loss 0.0076
+epoch 2 step 49900/78124 loss 0.0076
+epoch 2 step 49950/78124 loss 0.0075
+epoch 2 step 50000/78124 loss 0.0075
+{'epoch': 2, 'step': 50000, 'train_loss': 0.007528096050505138, 'calib_nll': 0.006201557349413633}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.74s/it]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.74s/it]
+epoch 2 step 50050/78124 loss 0.0075
+epoch 2 step 50100/78124 loss 0.0075
+epoch 2 step 50150/78124 loss 0.0075
+epoch 2 step 50200/78124 loss 0.0075
+epoch 2 step 50250/78124 loss 0.0075
+epoch 2 step 50300/78124 loss 0.0075
+epoch 2 step 50350/78124 loss 0.0076
+epoch 2 step 50400/78124 loss 0.0076
+epoch 2 step 50450/78124 loss 0.0076
+epoch 2 step 50500/78124 loss 0.0076
+epoch 2 step 50550/78124 loss 0.0076
+epoch 2 step 50600/78124 loss 0.0076
+epoch 2 step 50650/78124 loss 0.0076
+epoch 2 step 50700/78124 loss 0.0076
+epoch 2 step 50750/78124 loss 0.0076
+epoch 2 step 50800/78124 loss 0.0076
+epoch 2 step 50850/78124 loss 0.0076
+epoch 2 step 50900/78124 loss 0.0076
+epoch 2 step 50950/78124 loss 0.0076
+epoch 2 step 51000/78124 loss 0.0076
+epoch 2 step 51050/78124 loss 0.0076
+epoch 2 step 51100/78124 loss 0.0076
+epoch 2 step 51150/78124 loss 0.0076
+epoch 2 step 51200/78124 loss 0.0076
+epoch 2 step 51250/78124 loss 0.0076
+epoch 2 step 51300/78124 loss 0.0076
+epoch 2 step 51350/78124 loss 0.0076
+epoch 2 step 51400/78124 loss 0.0076
+epoch 2 step 51450/78124 loss 0.0075
+epoch 2 step 51500/78124 loss 0.0075
+epoch 2 step 51550/78124 loss 0.0075
+epoch 2 step 51600/78124 loss 0.0075
+epoch 2 step 51650/78124 loss 0.0075
+epoch 2 step 51700/78124 loss 0.0075
+epoch 2 step 51750/78124 loss 0.0075
+epoch 2 step 51800/78124 loss 0.0075
+epoch 2 step 51850/78124 loss 0.0075
+epoch 2 step 51900/78124 loss 0.0075
+epoch 2 step 51950/78124 loss 0.0075
+epoch 2 step 52000/78124 loss 0.0075
+epoch 2 step 52050/78124 loss 0.0075
+epoch 2 step 52100/78124 loss 0.0075
+epoch 2 step 52150/78124 loss 0.0075
+epoch 2 step 52200/78124 loss 0.0075
+epoch 2 step 52250/78124 loss 0.0075
+epoch 2 step 52300/78124 loss 0.0075
+epoch 2 step 52350/78124 loss 0.0075
+epoch 2 step 52400/78124 loss 0.0075
+epoch 2 step 52450/78124 loss 0.0075
+epoch 2 step 52500/78124 loss 0.0075
+epoch 2 step 52550/78124 loss 0.0075
+epoch 2 step 52600/78124 loss 0.0075
+epoch 2 step 52650/78124 loss 0.0074
+epoch 2 step 52700/78124 loss 0.0074
+epoch 2 step 52750/78124 loss 0.0074
+epoch 2 step 52800/78124 loss 0.0074
+epoch 2 step 52850/78124 loss 0.0074
+epoch 2 step 52900/78124 loss 0.0074
+epoch 2 step 52950/78124 loss 0.0074
+epoch 2 step 53000/78124 loss 0.0075
+epoch 2 step 53050/78124 loss 0.0075
+epoch 2 step 53100/78124 loss 0.0075
+epoch 2 step 53150/78124 loss 0.0074
+epoch 2 step 53200/78124 loss 0.0074
+epoch 2 step 53250/78124 loss 0.0074
+epoch 2 step 53300/78124 loss 0.0074
+epoch 2 step 53350/78124 loss 0.0074
+epoch 2 step 53400/78124 loss 0.0074
+epoch 2 step 53450/78124 loss 0.0074
+epoch 2 step 53500/78124 loss 0.0074
+epoch 2 step 53550/78124 loss 0.0074
+epoch 2 step 53600/78124 loss 0.0074
+epoch 2 step 53650/78124 loss 0.0074
+epoch 2 step 53700/78124 loss 0.0074
+epoch 2 step 53750/78124 loss 0.0074
+epoch 2 step 53800/78124 loss 0.0074
+epoch 2 step 53850/78124 loss 0.0074
+epoch 2 step 53900/78124 loss 0.0074
+epoch 2 step 53950/78124 loss 0.0074
+epoch 2 step 54000/78124 loss 0.0074
+epoch 2 step 54050/78124 loss 0.0073
+epoch 2 step 54100/78124 loss 0.0073
+epoch 2 step 54150/78124 loss 0.0073
+epoch 2 step 54200/78124 loss 0.0073
+epoch 2 step 54250/78124 loss 0.0073
+epoch 2 step 54300/78124 loss 0.0073
+epoch 2 step 54350/78124 loss 0.0073
+epoch 2 step 54400/78124 loss 0.0073
+epoch 2 step 54450/78124 loss 0.0073
+epoch 2 step 54500/78124 loss 0.0073
+epoch 2 step 54550/78124 loss 0.0073
+epoch 2 step 54600/78124 loss 0.0073
+epoch 2 step 54650/78124 loss 0.0073
+epoch 2 step 54700/78124 loss 0.0073
+epoch 2 step 54750/78124 loss 0.0073
+epoch 2 step 54800/78124 loss 0.0073
+epoch 2 step 54850/78124 loss 0.0073
+epoch 2 step 54900/78124 loss 0.0073
+epoch 2 step 54950/78124 loss 0.0073
+epoch 2 step 55000/78124 loss 0.0073
+epoch 2 step 55050/78124 loss 0.0073
+epoch 2 step 55100/78124 loss 0.0073
+epoch 2 step 55150/78124 loss 0.0073
+epoch 2 step 55200/78124 loss 0.0073
+epoch 2 step 55250/78124 loss 0.0073
+epoch 2 step 55300/78124 loss 0.0073
+epoch 2 step 55350/78124 loss 0.0073
+epoch 2 step 55400/78124 loss 0.0073
+epoch 2 step 55450/78124 loss 0.0073
+epoch 2 step 55500/78124 loss 0.0073
+epoch 2 step 55550/78124 loss 0.0073
+epoch 2 step 55600/78124 loss 0.0073
+epoch 2 step 55650/78124 loss 0.0073
+epoch 2 step 55700/78124 loss 0.0073
+epoch 2 step 55750/78124 loss 0.0073
+epoch 2 step 55800/78124 loss 0.0073
+epoch 2 step 55850/78124 loss 0.0073
+epoch 2 step 55900/78124 loss 0.0073
+epoch 2 step 55950/78124 loss 0.0073
+epoch 2 step 56000/78124 loss 0.0073
+epoch 2 step 56050/78124 loss 0.0073
+epoch 2 step 56100/78124 loss 0.0073
+epoch 2 step 56150/78124 loss 0.0073
+epoch 2 step 56200/78124 loss 0.0073
+epoch 2 step 56250/78124 loss 0.0073
+epoch 2 step 56300/78124 loss 0.0073
+epoch 2 step 56350/78124 loss 0.0073
+epoch 2 step 56400/78124 loss 0.0073
+epoch 2 step 56450/78124 loss 0.0073
+epoch 2 step 56500/78124 loss 0.0073
+epoch 2 step 56550/78124 loss 0.0073
+epoch 2 step 56600/78124 loss 0.0073
+epoch 2 step 56650/78124 loss 0.0073
+epoch 2 step 56700/78124 loss 0.0073
+epoch 2 step 56750/78124 loss 0.0073
+epoch 2 step 56800/78124 loss 0.0073
+epoch 2 step 56850/78124 loss 0.0073
+epoch 2 step 56900/78124 loss 0.0073
+epoch 2 step 56950/78124 loss 0.0073
+epoch 2 step 57000/78124 loss 0.0073
+epoch 2 step 57050/78124 loss 0.0073
+epoch 2 step 57100/78124 loss 0.0073
+epoch 2 step 57150/78124 loss 0.0073
+epoch 2 step 57200/78124 loss 0.0073
+epoch 2 step 57250/78124 loss 0.0073
+epoch 2 step 57300/78124 loss 0.0073
+epoch 2 step 57350/78124 loss 0.0073
+epoch 2 step 57400/78124 loss 0.0073
+epoch 2 step 57450/78124 loss 0.0073
+epoch 2 step 57500/78124 loss 0.0073
+epoch 2 step 57550/78124 loss 0.0072
+epoch 2 step 57600/78124 loss 0.0072
+epoch 2 step 57650/78124 loss 0.0072
+epoch 2 step 57700/78124 loss 0.0072
+epoch 2 step 57750/78124 loss 0.0072
+epoch 2 step 57800/78124 loss 0.0072
+epoch 2 step 57850/78124 loss 0.0073
+epoch 2 step 57900/78124 loss 0.0073
+epoch 2 step 57950/78124 loss 0.0073
+epoch 2 step 58000/78124 loss 0.0073
+epoch 2 step 58050/78124 loss 0.0073
+epoch 2 step 58100/78124 loss 0.0073
+epoch 2 step 58150/78124 loss 0.0072
+epoch 2 step 58200/78124 loss 0.0073
+epoch 2 step 58250/78124 loss 0.0072
+epoch 2 step 58300/78124 loss 0.0072
+epoch 2 step 58350/78124 loss 0.0072
+epoch 2 step 58400/78124 loss 0.0072
+epoch 2 step 58450/78124 loss 0.0072
+epoch 2 step 58500/78124 loss 0.0072
+epoch 2 step 58550/78124 loss 0.0072
+epoch 2 step 58600/78124 loss 0.0072
+epoch 2 step 58650/78124 loss 0.0072
+epoch 2 step 58700/78124 loss 0.0072
+epoch 2 step 58750/78124 loss 0.0072
+epoch 2 step 58800/78124 loss 0.0073
+epoch 2 step 58850/78124 loss 0.0073
+epoch 2 step 58900/78124 loss 0.0073
+epoch 2 step 58950/78124 loss 0.0073
+epoch 2 step 59000/78124 loss 0.0073
+epoch 2 step 59050/78124 loss 0.0073
+epoch 2 step 59100/78124 loss 0.0073
+epoch 2 step 59150/78124 loss 0.0073
+epoch 2 step 59200/78124 loss 0.0073
+epoch 2 step 59250/78124 loss 0.0073
+epoch 2 step 59300/78124 loss 0.0073
+epoch 2 step 59350/78124 loss 0.0073
+epoch 2 step 59400/78124 loss 0.0073
+epoch 2 step 59450/78124 loss 0.0073
+epoch 2 step 59500/78124 loss 0.0073
+epoch 2 step 59550/78124 loss 0.0073
+epoch 2 step 59600/78124 loss 0.0073
+epoch 2 step 59650/78124 loss 0.0073
+epoch 2 step 59700/78124 loss 0.0073
+epoch 2 step 59750/78124 loss 0.0073
+epoch 2 step 59800/78124 loss 0.0073
+epoch 2 step 59850/78124 loss 0.0073
+epoch 2 step 59900/78124 loss 0.0073
+epoch 2 step 59950/78124 loss 0.0073
+epoch 2 step 60000/78124 loss 0.0073
+{'epoch': 2, 'step': 60000, 'train_loss': 0.007272420296163232, 'calib_nll': 0.0062936702743172646}
+epoch 2 step 60050/78124 loss 0.0073
+epoch 2 step 60100/78124 loss 0.0073
+epoch 2 step 60150/78124 loss 0.0073
+epoch 2 step 60200/78124 loss 0.0073
+epoch 2 step 60250/78124 loss 0.0073
+epoch 2 step 60300/78124 loss 0.0073
+epoch 2 step 60350/78124 loss 0.0073
+epoch 2 step 60400/78124 loss 0.0073
+epoch 2 step 60450/78124 loss 0.0073
+epoch 2 step 60500/78124 loss 0.0073
+epoch 2 step 60550/78124 loss 0.0072
+epoch 2 step 60600/78124 loss 0.0072
+epoch 2 step 60650/78124 loss 0.0072
+epoch 2 step 60700/78124 loss 0.0072
+epoch 2 step 60750/78124 loss 0.0072
+epoch 2 step 60800/78124 loss 0.0072
+epoch 2 step 60850/78124 loss 0.0072
+epoch 2 step 60900/78124 loss 0.0072
+epoch 2 step 60950/78124 loss 0.0072
+epoch 2 step 61000/78124 loss 0.0072
+epoch 2 step 61050/78124 loss 0.0072
+epoch 2 step 61100/78124 loss 0.0072
+epoch 2 step 61150/78124 loss 0.0072
+epoch 2 step 61200/78124 loss 0.0072
+epoch 2 step 61250/78124 loss 0.0072
+epoch 2 step 61300/78124 loss 0.0072
+epoch 2 step 61350/78124 loss 0.0072
+epoch 2 step 61400/78124 loss 0.0073
+epoch 2 step 61450/78124 loss 0.0073
+epoch 2 step 61500/78124 loss 0.0072
+epoch 2 step 61550/78124 loss 0.0073
+epoch 2 step 61600/78124 loss 0.0073
+epoch 2 step 61650/78124 loss 0.0073
+epoch 2 step 61700/78124 loss 0.0073
+epoch 2 step 61750/78124 loss 0.0073
+epoch 2 step 61800/78124 loss 0.0073
+epoch 2 step 61850/78124 loss 0.0073
+epoch 2 step 61900/78124 loss 0.0073
+epoch 2 step 61950/78124 loss 0.0073
+epoch 2 step 62000/78124 loss 0.0072
+epoch 2 step 62050/78124 loss 0.0072
+epoch 2 step 62100/78124 loss 0.0072
+epoch 2 step 62150/78124 loss 0.0072
+epoch 2 step 62200/78124 loss 0.0072
+epoch 2 step 62250/78124 loss 0.0072
+epoch 2 step 62300/78124 loss 0.0072
+epoch 2 step 62350/78124 loss 0.0072
+epoch 2 step 62400/78124 loss 0.0072
+epoch 2 step 62450/78124 loss 0.0072
+epoch 2 step 62500/78124 loss 0.0072
+epoch 2 step 62550/78124 loss 0.0072
+epoch 2 step 62600/78124 loss 0.0072
+epoch 2 step 62650/78124 loss 0.0072
+epoch 2 step 62700/78124 loss 0.0072
+epoch 2 step 62750/78124 loss 0.0072
+epoch 2 step 62800/78124 loss 0.0072
+epoch 2 step 62850/78124 loss 0.0072
+epoch 2 step 62900/78124 loss 0.0072
+epoch 2 step 62950/78124 loss 0.0072
+epoch 2 step 63000/78124 loss 0.0072
+epoch 2 step 63050/78124 loss 0.0072
+epoch 2 step 63100/78124 loss 0.0072
+epoch 2 step 63150/78124 loss 0.0072
+epoch 2 step 63200/78124 loss 0.0072
+epoch 2 step 63250/78124 loss 0.0072
+epoch 2 step 63300/78124 loss 0.0072
+epoch 2 step 63350/78124 loss 0.0072
+epoch 2 step 63400/78124 loss 0.0072
+epoch 2 step 63450/78124 loss 0.0072
+epoch 2 step 63500/78124 loss 0.0071
+epoch 2 step 63550/78124 loss 0.0072
+epoch 2 step 63600/78124 loss 0.0072
+epoch 2 step 63650/78124 loss 0.0071
+epoch 2 step 63700/78124 loss 0.0072
+epoch 2 step 63750/78124 loss 0.0071
+epoch 2 step 63800/78124 loss 0.0072
+epoch 2 step 63850/78124 loss 0.0072
+epoch 2 step 63900/78124 loss 0.0072
+epoch 2 step 63950/78124 loss 0.0072
+epoch 2 step 64000/78124 loss 0.0072
+epoch 2 step 64050/78124 loss 0.0072
+epoch 2 step 64100/78124 loss 0.0072
+epoch 2 step 64150/78124 loss 0.0071
+epoch 2 step 64200/78124 loss 0.0071
+epoch 2 step 64250/78124 loss 0.0071
+epoch 2 step 64300/78124 loss 0.0071
+epoch 2 step 64350/78124 loss 0.0071
+epoch 2 step 64400/78124 loss 0.0071
+epoch 2 step 64450/78124 loss 0.0071
+epoch 2 step 64500/78124 loss 0.0071
+epoch 2 step 64550/78124 loss 0.0071
+epoch 2 step 64600/78124 loss 0.0071
+epoch 2 step 64650/78124 loss 0.0071
+epoch 2 step 64700/78124 loss 0.0071
+epoch 2 step 64750/78124 loss 0.0071
+epoch 2 step 64800/78124 loss 0.0071
+epoch 2 step 64850/78124 loss 0.0071
+epoch 2 step 64900/78124 loss 0.0071
+epoch 2 step 64950/78124 loss 0.0071
+epoch 2 step 65000/78124 loss 0.0071
+epoch 2 step 65050/78124 loss 0.0071
+epoch 2 step 65100/78124 loss 0.0071
+epoch 2 step 65150/78124 loss 0.0071
+epoch 2 step 65200/78124 loss 0.0071
+epoch 2 step 65250/78124 loss 0.0071
+epoch 2 step 65300/78124 loss 0.0071
+epoch 2 step 65350/78124 loss 0.0071
+epoch 2 step 65400/78124 loss 0.0071
+epoch 2 step 65450/78124 loss 0.0071
+epoch 2 step 65500/78124 loss 0.0071
+epoch 2 step 65550/78124 loss 0.0071
+epoch 2 step 65600/78124 loss 0.0071
+epoch 2 step 65650/78124 loss 0.0071
+epoch 2 step 65700/78124 loss 0.0071
+epoch 2 step 65750/78124 loss 0.0071
+epoch 2 step 65800/78124 loss 0.0071
+epoch 2 step 65850/78124 loss 0.0071
+epoch 2 step 65900/78124 loss 0.0071
+epoch 2 step 65950/78124 loss 0.0071
+epoch 2 step 66000/78124 loss 0.0071
+epoch 2 step 66050/78124 loss 0.0071
+epoch 2 step 66100/78124 loss 0.0071
+epoch 2 step 66150/78124 loss 0.0071
+epoch 2 step 66200/78124 loss 0.0071
+epoch 2 step 66250/78124 loss 0.0071
+epoch 2 step 66300/78124 loss 0.0071
+epoch 2 step 66350/78124 loss 0.0071
+epoch 2 step 66400/78124 loss 0.0071
+epoch 2 step 66450/78124 loss 0.0071
+epoch 2 step 66500/78124 loss 0.0071
+epoch 2 step 66550/78124 loss 0.0070
+epoch 2 step 66600/78124 loss 0.0071
+epoch 2 step 66650/78124 loss 0.0071
+epoch 2 step 66700/78124 loss 0.0071
+epoch 2 step 66750/78124 loss 0.0071
+epoch 2 step 66800/78124 loss 0.0071
+epoch 2 step 66850/78124 loss 0.0071
+epoch 2 step 66900/78124 loss 0.0071
+epoch 2 step 66950/78124 loss 0.0071
+epoch 2 step 67000/78124 loss 0.0071
+epoch 2 step 67050/78124 loss 0.0071
+epoch 2 step 67100/78124 loss 0.0071
+epoch 2 step 67150/78124 loss 0.0071
+epoch 2 step 67200/78124 loss 0.0071
+epoch 2 step 67250/78124 loss 0.0071
+epoch 2 step 67300/78124 loss 0.0071
+epoch 2 step 67350/78124 loss 0.0071
+epoch 2 step 67400/78124 loss 0.0071
+epoch 2 step 67450/78124 loss 0.0071
+epoch 2 step 67500/78124 loss 0.0071
+epoch 2 step 67550/78124 loss 0.0071
+epoch 2 step 67600/78124 loss 0.0071
+epoch 2 step 67650/78124 loss 0.0071
+epoch 2 step 67700/78124 loss 0.0071
+epoch 2 step 67750/78124 loss 0.0071
+epoch 2 step 67800/78124 loss 0.0071
+epoch 2 step 67850/78124 loss 0.0071
+epoch 2 step 67900/78124 loss 0.0071
+epoch 2 step 67950/78124 loss 0.0071
+epoch 2 step 68000/78124 loss 0.0071
+epoch 2 step 68050/78124 loss 0.0071
+epoch 2 step 68100/78124 loss 0.0070
+epoch 2 step 68150/78124 loss 0.0071
+epoch 2 step 68200/78124 loss 0.0071
+epoch 2 step 68250/78124 loss 0.0070
+epoch 2 step 68300/78124 loss 0.0071
+epoch 2 step 68350/78124 loss 0.0070
+epoch 2 step 68400/78124 loss 0.0070
+epoch 2 step 68450/78124 loss 0.0070
+epoch 2 step 68500/78124 loss 0.0070
+epoch 2 step 68550/78124 loss 0.0070
+epoch 2 step 68600/78124 loss 0.0070
+epoch 2 step 68650/78124 loss 0.0070
+epoch 2 step 68700/78124 loss 0.0070
+epoch 2 step 68750/78124 loss 0.0070
+epoch 2 step 68800/78124 loss 0.0070
+epoch 2 step 68850/78124 loss 0.0070
+epoch 2 step 68900/78124 loss 0.0070
+epoch 2 step 68950/78124 loss 0.0070
+epoch 2 step 69000/78124 loss 0.0070
+epoch 2 step 69050/78124 loss 0.0070
+epoch 2 step 69100/78124 loss 0.0070
+epoch 2 step 69150/78124 loss 0.0071
+epoch 2 step 69200/78124 loss 0.0071
+epoch 2 step 69250/78124 loss 0.0071
+epoch 2 step 69300/78124 loss 0.0070
+epoch 2 step 69350/78124 loss 0.0071
+epoch 2 step 69400/78124 loss 0.0070
+epoch 2 step 69450/78124 loss 0.0070
+epoch 2 step 69500/78124 loss 0.0070
+epoch 2 step 69550/78124 loss 0.0070
+epoch 2 step 69600/78124 loss 0.0070
+epoch 2 step 69650/78124 loss 0.0070
+epoch 2 step 69700/78124 loss 0.0070
+epoch 2 step 69750/78124 loss 0.0070
+epoch 2 step 69800/78124 loss 0.0070
+epoch 2 step 69850/78124 loss 0.0070
+epoch 2 step 69900/78124 loss 0.0070
+epoch 2 step 69950/78124 loss 0.0070
+epoch 2 step 70000/78124 loss 0.0070
+{'epoch': 2, 'step': 70000, 'train_loss': 0.007042616674277796, 'calib_nll': 0.006148553919047117}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.94s/it]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.94s/it]
+epoch 2 step 70050/78124 loss 0.0070
+epoch 2 step 70100/78124 loss 0.0070
+epoch 2 step 70150/78124 loss 0.0070
+epoch 2 step 70200/78124 loss 0.0070
+epoch 2 step 70250/78124 loss 0.0070
+epoch 2 step 70300/78124 loss 0.0070
+epoch 2 step 70350/78124 loss 0.0070
+epoch 2 step 70400/78124 loss 0.0070
+epoch 2 step 70450/78124 loss 0.0070
+epoch 2 step 70500/78124 loss 0.0070
+epoch 2 step 70550/78124 loss 0.0070
+epoch 2 step 70600/78124 loss 0.0070
+epoch 2 step 70650/78124 loss 0.0070
+epoch 2 step 70700/78124 loss 0.0070
+epoch 2 step 70750/78124 loss 0.0070
+epoch 2 step 70800/78124 loss 0.0070
+epoch 2 step 70850/78124 loss 0.0070
+epoch 2 step 70900/78124 loss 0.0070
+epoch 2 step 70950/78124 loss 0.0070
+epoch 2 step 71000/78124 loss 0.0070
+epoch 2 step 71050/78124 loss 0.0070
+epoch 2 step 71100/78124 loss 0.0070
+epoch 2 step 71150/78124 loss 0.0070
+epoch 2 step 71200/78124 loss 0.0070
+epoch 2 step 71250/78124 loss 0.0070
+epoch 2 step 71300/78124 loss 0.0070
+epoch 2 step 71350/78124 loss 0.0070
+epoch 2 step 71400/78124 loss 0.0070
+epoch 2 step 71450/78124 loss 0.0070
+epoch 2 step 71500/78124 loss 0.0070
+epoch 2 step 71550/78124 loss 0.0070
+epoch 2 step 71600/78124 loss 0.0070
+epoch 2 step 71650/78124 loss 0.0070
+epoch 2 step 71700/78124 loss 0.0070
+epoch 2 step 71750/78124 loss 0.0070
+epoch 2 step 71800/78124 loss 0.0070
+epoch 2 step 71850/78124 loss 0.0070
+epoch 2 step 71900/78124 loss 0.0070
+epoch 2 step 71950/78124 loss 0.0070
+epoch 2 step 72000/78124 loss 0.0070
+epoch 2 step 72050/78124 loss 0.0070
+epoch 2 step 72100/78124 loss 0.0070
+epoch 2 step 72150/78124 loss 0.0070
+epoch 2 step 72200/78124 loss 0.0070
+epoch 2 step 72250/78124 loss 0.0070
+epoch 2 step 72300/78124 loss 0.0070
+epoch 2 step 72350/78124 loss 0.0070
+epoch 2 step 72400/78124 loss 0.0070
+epoch 2 step 72450/78124 loss 0.0070
+epoch 2 step 72500/78124 loss 0.0070
+epoch 2 step 72550/78124 loss 0.0070
+epoch 2 step 72600/78124 loss 0.0070
+epoch 2 step 72650/78124 loss 0.0070
+epoch 2 step 72700/78124 loss 0.0070
+epoch 2 step 72750/78124 loss 0.0070
+epoch 2 step 72800/78124 loss 0.0070
+epoch 2 step 72850/78124 loss 0.0070
+epoch 2 step 72900/78124 loss 0.0070
+epoch 2 step 72950/78124 loss 0.0070
+epoch 2 step 73000/78124 loss 0.0070
+epoch 2 step 73050/78124 loss 0.0070
+epoch 2 step 73100/78124 loss 0.0070
+epoch 2 step 73150/78124 loss 0.0070
+epoch 2 step 73200/78124 loss 0.0070
+epoch 2 step 73250/78124 loss 0.0070
+epoch 2 step 73300/78124 loss 0.0070
+epoch 2 step 73350/78124 loss 0.0070
+epoch 2 step 73400/78124 loss 0.0070
+epoch 2 step 73450/78124 loss 0.0070
+epoch 2 step 73500/78124 loss 0.0070
+epoch 2 step 73550/78124 loss 0.0070
+epoch 2 step 73600/78124 loss 0.0070
+epoch 2 step 73650/78124 loss 0.0070
+epoch 2 step 73700/78124 loss 0.0070
+epoch 2 step 73750/78124 loss 0.0070
+epoch 2 step 73800/78124 loss 0.0070
+epoch 2 step 73850/78124 loss 0.0070
+epoch 2 step 73900/78124 loss 0.0070
+epoch 2 step 73950/78124 loss 0.0070
+epoch 2 step 74000/78124 loss 0.0070
+epoch 2 step 74050/78124 loss 0.0070
+epoch 2 step 74100/78124 loss 0.0070
+epoch 2 step 74150/78124 loss 0.0070
+epoch 2 step 74200/78124 loss 0.0070
+epoch 2 step 74250/78124 loss 0.0070
+epoch 2 step 74300/78124 loss 0.0070
+epoch 2 step 74350/78124 loss 0.0070
+epoch 2 step 74400/78124 loss 0.0070
+epoch 2 step 74450/78124 loss 0.0070
+epoch 2 step 74500/78124 loss 0.0069
+epoch 2 step 74550/78124 loss 0.0069
+epoch 2 step 74600/78124 loss 0.0069
+epoch 2 step 74650/78124 loss 0.0069
+epoch 2 step 74700/78124 loss 0.0069
+epoch 2 step 74750/78124 loss 0.0069
+epoch 2 step 74800/78124 loss 0.0069
+epoch 2 step 74850/78124 loss 0.0069
+epoch 2 step 74900/78124 loss 0.0069
+epoch 2 step 74950/78124 loss 0.0069
+epoch 2 step 75000/78124 loss 0.0069
+epoch 2 step 75050/78124 loss 0.0069
+epoch 2 step 75100/78124 loss 0.0069
+epoch 2 step 75150/78124 loss 0.0069
+epoch 2 step 75200/78124 loss 0.0069
+epoch 2 step 75250/78124 loss 0.0069
+epoch 2 step 75300/78124 loss 0.0069
+epoch 2 step 75350/78124 loss 0.0069
+epoch 2 step 75400/78124 loss 0.0069
+epoch 2 step 75450/78124 loss 0.0069
+epoch 2 step 75500/78124 loss 0.0069
+epoch 2 step 75550/78124 loss 0.0069
+epoch 2 step 75600/78124 loss 0.0069
+epoch 2 step 75650/78124 loss 0.0069
+epoch 2 step 75700/78124 loss 0.0069
+epoch 2 step 75750/78124 loss 0.0069
+epoch 2 step 75800/78124 loss 0.0069
+epoch 2 step 75850/78124 loss 0.0069
+epoch 2 step 75900/78124 loss 0.0069
+epoch 2 step 75950/78124 loss 0.0069
+epoch 2 step 76000/78124 loss 0.0069
+epoch 2 step 76050/78124 loss 0.0069
+epoch 2 step 76100/78124 loss 0.0069
+epoch 2 step 76150/78124 loss 0.0069
+epoch 2 step 76200/78124 loss 0.0069
+epoch 2 step 76250/78124 loss 0.0069
+epoch 2 step 76300/78124 loss 0.0069
+epoch 2 step 76350/78124 loss 0.0069
+epoch 2 step 76400/78124 loss 0.0069
+epoch 2 step 76450/78124 loss 0.0069
+epoch 2 step 76500/78124 loss 0.0069
+epoch 2 step 76550/78124 loss 0.0069
+epoch 2 step 76600/78124 loss 0.0069
+epoch 2 step 76650/78124 loss 0.0069
+epoch 2 step 76700/78124 loss 0.0069
+epoch 2 step 76750/78124 loss 0.0069
+epoch 2 step 76800/78124 loss 0.0069
+epoch 2 step 76850/78124 loss 0.0069
+epoch 2 step 76900/78124 loss 0.0069
+epoch 2 step 76950/78124 loss 0.0069
+epoch 2 step 77000/78124 loss 0.0069
+epoch 2 step 77050/78124 loss 0.0069
+epoch 2 step 77100/78124 loss 0.0069
+epoch 2 step 77150/78124 loss 0.0069
+epoch 2 step 77200/78124 loss 0.0069
+epoch 2 step 77250/78124 loss 0.0069
+epoch 2 step 77300/78124 loss 0.0069
+epoch 2 step 77350/78124 loss 0.0069
+epoch 2 step 77400/78124 loss 0.0069
+epoch 2 step 77450/78124 loss 0.0069
+epoch 2 step 77500/78124 loss 0.0069
+epoch 2 step 77550/78124 loss 0.0069
+epoch 2 step 77600/78124 loss 0.0069
+epoch 2 step 77650/78124 loss 0.0069
+epoch 2 step 77700/78124 loss 0.0069
+epoch 2 step 77750/78124 loss 0.0069
+epoch 2 step 77800/78124 loss 0.0069
+epoch 2 step 77850/78124 loss 0.0069
+epoch 2 step 77900/78124 loss 0.0069
+epoch 2 step 77950/78124 loss 0.0069
+epoch 2 step 78000/78124 loss 0.0069
+epoch 2 step 78050/78124 loss 0.0069
+epoch 2 step 78100/78124 loss 0.0069
+{'epoch': 2, 'step': 78124, 'train_loss': 0.006856410086305587, 'calib_nll': 0.006007176358252764}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.73s/it]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.73s/it]
+{
+  "backbone": "minilm",
+  "best_calib_nll": 0.006007176358252764,
+  "history": [
+    {
+      "epoch": 1,
+      "step": 10000,
+      "train_loss": 0.060817228216677906,
+      "calib_nll": 0.044403839856386185
+    },
+    {
+      "epoch": 1,
+      "step": 20000,
+      "train_loss": 0.03426659299342964,
+      "calib_nll": 0.026715483516454697
+    },
+    {
+      "epoch": 1,
+      "step": 30000,
+      "train_loss": 0.025100213617916232,
+      "calib_nll": 0.015104643069207668
+    },
+    {
+      "epoch": 1,
+      "step": 39062,
+      "train_loss": 0.020108310851814023,
+      "calib_nll": 0.01973811723291874
+    },
+    {
+      "epoch": 2,
+      "step": 40000,
+      "train_loss": 0.008280945069367714,
+      "calib_nll": 0.007665620185434818
+    },
+    {
+      "epoch": 2,
+      "step": 50000,
+      "train_loss": 0.007528096050505138,
+      "calib_nll": 0.006201557349413633
+    },
+    {
+      "epoch": 2,
+      "step": 60000,
+      "train_loss": 0.007272420296163232,
+      "calib_nll": 0.0062936702743172646
+    },
+    {
+      "epoch": 2,
+      "step": 70000,
+      "train_loss": 0.007042616674277796,
+      "calib_nll": 0.006148553919047117
+    },
+    {
+      "epoch": 2,
+      "step": 78124,
+      "train_loss": 0.006856410086305587,
+      "calib_nll": 0.006007176358252764
+    }
+  ],
+  "steps": 78124
+}
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 15305.46it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 15331.34it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 14958.93it/s]
+Loading weights: 100%|██████████| 201/201 [00:00<00:00, 16782.23it/s]
+score 4096/1370850
+score 4096/1370850
+score 4096/1370850
+score 4096/1370850
+score 86016/1370850
+score 86016/1370850
+score 86016/1370850
+score 86016/1370850
+score 167936/1370850
+score 167936/1370850
+score 167936/1370850
+score 167936/1370850
+score 249856/1370850
+score 249856/1370850
+score 249856/1370850
+score 249856/1370850
+score 331776/1370850
+score 331776/1370850
+score 331776/1370850
+score 331776/1370850
+score 413696/1370850
+score 413696/1370850
+score 413696/1370850
+score 413696/1370850
+score 495616/1370850
+score 495616/1370850
+score 495616/1370850
+score 495616/1370850
+score 577536/1370850
+score 577536/1370850
+score 577536/1370850
+score 577536/1370850
+score 659456/1370850
+score 659456/1370850
+score 659456/1370850
+score 659456/1370850
+score 741376/1370850
+score 741376/1370850
+score 741376/1370850
+score 741376/1370850
+score 823296/1370850
+score 823296/1370850
+score 823296/1370850
+score 823296/1370850
+score 905216/1370850
+score 905216/1370850
+score 905216/1370850
+score 905216/1370850
+score 987136/1370850
+score 987136/1370850
+score 987136/1370850
+score 987136/1370850
+score 1069056/1370850
+score 1069056/1370850
+score 1069056/1370850
+score 1069056/1370850
+score 1150976/1370850
+score 1150976/1370850
+score 1150976/1370850
+score 1150976/1370850
+score 1232896/1370850
+score 1232896/1370850
+score 1232896/1370850
+score 1232896/1370850
+score 1314816/1370850
+score 1314816/1370850
+score 1314816/1370850
+score 1314816/1370850
+score 4096/1377813
+score 4096/1377812
+score 4096/1377812
+score 4096/1377813
+score 86016/1377812
+score 86016/1377812
+score 86016/1377813
+score 86016/1377813
+score 167936/1377812
+score 167936/1377813
+score 167936/1377812
+score 167936/1377813
+score 249856/1377812
+score 249856/1377813
+score 249856/1377812
+score 249856/1377813
+score 331776/1377812
+score 331776/1377813
+score 331776/1377812
+score 331776/1377813
+score 413696/1377812
+score 413696/1377812
+score 413696/1377813
+score 413696/1377813
+score 495616/1377812
+score 495616/1377812
+score 495616/1377813
+score 495616/1377813
+score 577536/1377812
+score 577536/1377812
+score 577536/1377813
+score 577536/1377813
+score 659456/1377812
+score 659456/1377812
+score 659456/1377813
+score 659456/1377813
+score 741376/1377812
+score 741376/1377813
+score 741376/1377812
+score 741376/1377813
+score 823296/1377812
+score 823296/1377813
+score 823296/1377812
+score 823296/1377813
+score 905216/1377812
+score 905216/1377813
+score 905216/1377812
+score 905216/1377813
+score 987136/1377812
+score 987136/1377813
+score 987136/1377812
+score 987136/1377813
+score 1069056/1377812
+score 1069056/1377813
+score 1069056/1377812
+score 1069056/1377813
+score 1150976/1377812
+score 1150976/1377813
+score 1150976/1377813
+score 1150976/1377812
+score 1232896/1377812
+score 1232896/1377813
+score 1232896/1377813
+score 1232896/1377812
+score 1314816/1377812
+score 1314816/1377813
+score 1314816/1377812
+score 1314816/1377813
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 44349.97it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: microsoft/Multilingual-MiniLM-L12-H384
+Key               | Status  | 
+------------------+---------+-
+classifier.weight | MISSING | 
+classifier.bias   | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 45520.64it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: microsoft/Multilingual-MiniLM-L12-H384
+Key               | Status  | 
+------------------+---------+-
+classifier.bias   | MISSING | 
+classifier.weight | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 41277.21it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: microsoft/Multilingual-MiniLM-L12-H384
+Key               | Status  | 
+------------------+---------+-
+classifier.weight | MISSING | 
+classifier.bias   | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 44216.06it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: microsoft/Multilingual-MiniLM-L12-H384
+Key               | Status  | 
+------------------+---------+-
+classifier.bias   | MISSING | 
+classifier.weight | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+tokenize 4096/1500000
+tokenize 86016/1500000
+tokenize 167936/1500000
+tokenize 249856/1500000
+tokenize 331776/1500000
+tokenize 413696/1500000
+tokenize 495616/1500000
+tokenize 577536/1500000
+tokenize 659456/1500000
+tokenize 741376/1500000
+tokenize 823296/1500000
+tokenize 905216/1500000
+tokenize 987136/1500000
+tokenize 1069056/1500000
+tokenize 1150976/1500000
+tokenize 1232896/1500000
+tokenize 1314816/1500000
+tokenize 1396736/1500000
+tokenize 1478656/1500000
+tokenize 4096/400000
+tokenize 86016/400000
+tokenize 167936/400000
+tokenize 249856/400000
+tokenize 331776/400000
+train n=1500000 global_batch=256 steps/epoch=5859 world=4
+epoch 1 step 50/5859 loss 0.6646
+epoch 1 step 100/5859 loss 0.5855
+epoch 1 step 150/5859 loss 0.4901
+epoch 1 step 200/5859 loss 0.4217
+epoch 1 step 250/5859 loss 0.3719
+epoch 1 step 300/5859 loss 0.3380
+epoch 1 step 350/5859 loss 0.3146
+epoch 1 step 400/5859 loss 0.2959
+epoch 1 step 450/5859 loss 0.2830
+epoch 1 step 500/5859 loss 0.2766
+epoch 1 step 550/5859 loss 0.2715
+epoch 1 step 600/5859 loss 0.2681
+epoch 1 step 650/5859 loss 0.2560
+epoch 1 step 700/5859 loss 0.2434
+epoch 1 step 750/5859 loss 0.2316
+epoch 1 step 800/5859 loss 0.2204
+epoch 1 step 850/5859 loss 0.2104
+epoch 1 step 900/5859 loss 0.2010
+epoch 1 step 950/5859 loss 0.1923
+epoch 1 step 1000/5859 loss 0.1842
+epoch 1 step 1050/5859 loss 0.1767
+epoch 1 step 1100/5859 loss 0.1696
+epoch 1 step 1150/5859 loss 0.1636
+epoch 1 step 1200/5859 loss 0.1581
+epoch 1 step 1250/5859 loss 0.1527
+epoch 1 step 1300/5859 loss 0.1480
+epoch 1 step 1350/5859 loss 0.1434
+epoch 1 step 1400/5859 loss 0.1391
+epoch 1 step 1450/5859 loss 0.1350
+epoch 1 step 1500/5859 loss 0.1314
+epoch 1 step 1550/5859 loss 0.1279
+epoch 1 step 1600/5859 loss 0.1246
+epoch 1 step 1650/5859 loss 0.1215
+epoch 1 step 1700/5859 loss 0.1185
+epoch 1 step 1750/5859 loss 0.1155
+epoch 1 step 1800/5859 loss 0.1127
+epoch 1 step 1850/5859 loss 0.1102
+epoch 1 step 1900/5859 loss 0.1078
+epoch 1 step 1950/5859 loss 0.1055
+epoch 1 step 2000/5859 loss 0.1033
+epoch 1 step 2050/5859 loss 0.1012
+epoch 1 step 2100/5859 loss 0.0991
+epoch 1 step 2150/5859 loss 0.0971
+epoch 1 step 2200/5859 loss 0.0954
+epoch 1 step 2250/5859 loss 0.0935
+epoch 1 step 2300/5859 loss 0.0917
+epoch 1 step 2350/5859 loss 0.0900
+epoch 1 step 2400/5859 loss 0.0885
+epoch 1 step 2450/5859 loss 0.0870
+epoch 1 step 2500/5859 loss 0.0855
+epoch 1 step 2550/5859 loss 0.0841
+epoch 1 step 2600/5859 loss 0.0827
+epoch 1 step 2650/5859 loss 0.0815
+epoch 1 step 2700/5859 loss 0.0803
+epoch 1 step 2750/5859 loss 0.0790
+epoch 1 step 2800/5859 loss 0.0778
+epoch 1 step 2850/5859 loss 0.0767
+epoch 1 step 2900/5859 loss 0.0756
+epoch 1 step 2950/5859 loss 0.0745
+epoch 1 step 3000/5859 loss 0.0735
+epoch 1 step 3050/5859 loss 0.0724
+epoch 1 step 3100/5859 loss 0.0714
+epoch 1 step 3150/5859 loss 0.0705
+epoch 1 step 3200/5859 loss 0.0695
+epoch 1 step 3250/5859 loss 0.0686
+epoch 1 step 3300/5859 loss 0.0677
+epoch 1 step 3350/5859 loss 0.0669
+epoch 1 step 3400/5859 loss 0.0660
+epoch 1 step 3450/5859 loss 0.0653
+epoch 1 step 3500/5859 loss 0.0645
+epoch 1 step 3550/5859 loss 0.0637
+epoch 1 step 3600/5859 loss 0.0630
+epoch 1 step 3650/5859 loss 0.0623
+epoch 1 step 3700/5859 loss 0.0616
+epoch 1 step 3750/5859 loss 0.0609
+epoch 1 step 3800/5859 loss 0.0602
+epoch 1 step 3850/5859 loss 0.0596
+epoch 1 step 3900/5859 loss 0.0590
+epoch 1 step 3950/5859 loss 0.0584
+epoch 1 step 4000/5859 loss 0.0577
+epoch 1 step 4050/5859 loss 0.0571
+epoch 1 step 4100/5859 loss 0.0565
+epoch 1 step 4150/5859 loss 0.0559
+epoch 1 step 4200/5859 loss 0.0554
+epoch 1 step 4250/5859 loss 0.0549
+epoch 1 step 4300/5859 loss 0.0543
+epoch 1 step 4350/5859 loss 0.0538
+epoch 1 step 4400/5859 loss 0.0533
+epoch 1 step 4450/5859 loss 0.0528
+epoch 1 step 4500/5859 loss 0.0523
+epoch 1 step 4550/5859 loss 0.0518
+epoch 1 step 4600/5859 loss 0.0513
+epoch 1 step 4650/5859 loss 0.0509
+epoch 1 step 4700/5859 loss 0.0504
+epoch 1 step 4750/5859 loss 0.0500
+epoch 1 step 4800/5859 loss 0.0496
+epoch 1 step 4850/5859 loss 0.0492
+epoch 1 step 4900/5859 loss 0.0488
+epoch 1 step 4950/5859 loss 0.0485
+epoch 1 step 5000/5859 loss 0.0481
+epoch 1 step 5050/5859 loss 0.0477
+epoch 1 step 5100/5859 loss 0.0473
+epoch 1 step 5150/5859 loss 0.0469
+epoch 1 step 5200/5859 loss 0.0466
+epoch 1 step 5250/5859 loss 0.0463
+epoch 1 step 5300/5859 loss 0.0459
+epoch 1 step 5350/5859 loss 0.0456
+epoch 1 step 5400/5859 loss 0.0452
+epoch 1 step 5450/5859 loss 0.0449
+epoch 1 step 5500/5859 loss 0.0446
+epoch 1 step 5550/5859 loss 0.0443
+epoch 1 step 5600/5859 loss 0.0440
+epoch 1 step 5650/5859 loss 0.0437
+epoch 1 step 5700/5859 loss 0.0434
+epoch 1 step 5750/5859 loss 0.0431
+epoch 1 step 5800/5859 loss 0.0428
+epoch 1 step 5850/5859 loss 0.0427
+{'epoch': 1, 'step': 5859, 'train_loss': 0.04260469700156069, 'calib_nll': 0.08911286294460297}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  6.46it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  6.45it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 15156.05it/s]
+Loading weights: 100%|██████████| 201/201 [00:00<00:00, 15194.84it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 15279.66it/s]
+score 4096/100000
+score 4096/100000
+score 4096/100000
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 16317.72it/s]
+score 4096/100000
+score 86016/100000
+score 86016/100000
+score 86016/100000
+score 86016/100000
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 46295.77it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: microsoft/Multilingual-MiniLM-L12-H384
+Key               | Status  | 
+------------------+---------+-
+classifier.bias   | MISSING | 
+classifier.weight | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 44411.33it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: microsoft/Multilingual-MiniLM-L12-H384
+Key               | Status  | 
+------------------+---------+-
+classifier.weight | MISSING | 
+classifier.bias   | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 57016.63it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: microsoft/Multilingual-MiniLM-L12-H384
+Key               | Status  | 
+------------------+---------+-
+classifier.weight | MISSING | 
+classifier.bias   | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 42814.39it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: microsoft/Multilingual-MiniLM-L12-H384
+Key               | Status  | 
+------------------+---------+-
+classifier.bias   | MISSING | 
+classifier.weight | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+tokenize 4096/1500000
+tokenize 86016/1500000
+tokenize 167936/1500000
+tokenize 249856/1500000
+tokenize 331776/1500000
+tokenize 413696/1500000
+tokenize 495616/1500000
+tokenize 577536/1500000
+tokenize 659456/1500000
+tokenize 741376/1500000
+tokenize 823296/1500000
+tokenize 905216/1500000
+tokenize 987136/1500000
+tokenize 1069056/1500000
+tokenize 1150976/1500000
+tokenize 1232896/1500000
+tokenize 1314816/1500000
+tokenize 1396736/1500000
+tokenize 1478656/1500000
+tokenize 4096/400000
+tokenize 86016/400000
+tokenize 167936/400000
+tokenize 249856/400000
+tokenize 331776/400000
+train n=1500000 global_batch=256 steps/epoch=5859 world=4
+epoch 1 step 50/5859 loss 0.6640
+epoch 1 step 100/5859 loss 0.5817
+epoch 1 step 150/5859 loss 0.4817
+epoch 1 step 200/5859 loss 0.4070
+epoch 1 step 250/5859 loss 0.3511
+epoch 1 step 300/5859 loss 0.3079
+epoch 1 step 350/5859 loss 0.2758
+epoch 1 step 400/5859 loss 0.2493
+epoch 1 step 450/5859 loss 0.2304
+epoch 1 step 500/5859 loss 0.2151
+epoch 1 step 550/5859 loss 0.2047
+epoch 1 step 600/5859 loss 0.1942
+epoch 1 step 650/5859 loss 0.1883
+epoch 1 step 700/5859 loss 0.1804
+epoch 1 step 750/5859 loss 0.1767
+epoch 1 step 800/5859 loss 0.1716
+epoch 1 step 850/5859 loss 0.1648
+epoch 1 step 900/5859 loss 0.1586
+epoch 1 step 950/5859 loss 0.1528
+epoch 1 step 1000/5859 loss 0.1470
+epoch 1 step 1050/5859 loss 0.1418
+epoch 1 step 1100/5859 loss 0.1368
+epoch 1 step 1150/5859 loss 0.1328
+epoch 1 step 1200/5859 loss 0.1286
+epoch 1 step 1250/5859 loss 0.1244
+epoch 1 step 1300/5859 loss 0.1206
+epoch 1 step 1350/5859 loss 0.1170
+epoch 1 step 1400/5859 loss 0.1136
+epoch 1 step 1450/5859 loss 0.1102
+epoch 1 step 1500/5859 loss 0.1072
+epoch 1 step 1550/5859 loss 0.1047
+epoch 1 step 1600/5859 loss 0.1022
+epoch 1 step 1650/5859 loss 0.0995
+epoch 1 step 1700/5859 loss 0.0971
+epoch 1 step 1750/5859 loss 0.0948
+epoch 1 step 1800/5859 loss 0.0927
+epoch 1 step 1850/5859 loss 0.0906
+epoch 1 step 1900/5859 loss 0.0887
+epoch 1 step 1950/5859 loss 0.0868
+epoch 1 step 2000/5859 loss 0.0850
+epoch 1 step 2050/5859 loss 0.0834
+epoch 1 step 2100/5859 loss 0.0817
+epoch 1 step 2150/5859 loss 0.0800
+epoch 1 step 2200/5859 loss 0.0784
+epoch 1 step 2250/5859 loss 0.0770
+epoch 1 step 2300/5859 loss 0.0756
+epoch 1 step 2350/5859 loss 0.0743
+epoch 1 step 2400/5859 loss 0.0729
+epoch 1 step 2450/5859 loss 0.0716
+epoch 1 step 2500/5859 loss 0.0704
+epoch 1 step 2550/5859 loss 0.0692
+epoch 1 step 2600/5859 loss 0.0681
+epoch 1 step 2650/5859 loss 0.0670
+epoch 1 step 2700/5859 loss 0.0659
+epoch 1 step 2750/5859 loss 0.0649
+epoch 1 step 2800/5859 loss 0.0639
+epoch 1 step 2850/5859 loss 0.0630
+epoch 1 step 2900/5859 loss 0.0621
+epoch 1 step 2950/5859 loss 0.0612
+epoch 1 step 3000/5859 loss 0.0603
+epoch 1 step 3050/5859 loss 0.0594
+epoch 1 step 3100/5859 loss 0.0586
+epoch 1 step 3150/5859 loss 0.0578
+epoch 1 step 3200/5859 loss 0.0570
+epoch 1 step 3250/5859 loss 0.0563
+epoch 1 step 3300/5859 loss 0.0556
+epoch 1 step 3350/5859 loss 0.0549
+epoch 1 step 3400/5859 loss 0.0542
+epoch 1 step 3450/5859 loss 0.0535
+epoch 1 step 3500/5859 loss 0.0529
+epoch 1 step 3550/5859 loss 0.0522
+epoch 1 step 3600/5859 loss 0.0516
+epoch 1 step 3650/5859 loss 0.0510
+epoch 1 step 3700/5859 loss 0.0504
+epoch 1 step 3750/5859 loss 0.0498
+epoch 1 step 3800/5859 loss 0.0493
+epoch 1 step 3850/5859 loss 0.0488
+epoch 1 step 3900/5859 loss 0.0483
+epoch 1 step 3950/5859 loss 0.0478
+epoch 1 step 4000/5859 loss 0.0472
+epoch 1 step 4050/5859 loss 0.0467
+epoch 1 step 4100/5859 loss 0.0462
+epoch 1 step 4150/5859 loss 0.0457
+epoch 1 step 4200/5859 loss 0.0453
+epoch 1 step 4250/5859 loss 0.0448
+epoch 1 step 4300/5859 loss 0.0444
+epoch 1 step 4350/5859 loss 0.0439
+epoch 1 step 4400/5859 loss 0.0435
+epoch 1 step 4450/5859 loss 0.0431
+epoch 1 step 4500/5859 loss 0.0427
+epoch 1 step 4550/5859 loss 0.0423
+epoch 1 step 4600/5859 loss 0.0419
+epoch 1 step 4650/5859 loss 0.0415
+epoch 1 step 4700/5859 loss 0.0411
+epoch 1 step 4750/5859 loss 0.0408
+epoch 1 step 4800/5859 loss 0.0404
+epoch 1 step 4850/5859 loss 0.0401
+epoch 1 step 4900/5859 loss 0.0398
+epoch 1 step 4950/5859 loss 0.0395
+epoch 1 step 5000/5859 loss 0.0391
+epoch 1 step 5050/5859 loss 0.0388
+epoch 1 step 5100/5859 loss 0.0385
+epoch 1 step 5150/5859 loss 0.0382
+epoch 1 step 5200/5859 loss 0.0379
+epoch 1 step 5250/5859 loss 0.0376
+epoch 1 step 5300/5859 loss 0.0373
+epoch 1 step 5350/5859 loss 0.0370
+epoch 1 step 5400/5859 loss 0.0368
+epoch 1 step 5450/5859 loss 0.0365
+epoch 1 step 5500/5859 loss 0.0363
+epoch 1 step 5550/5859 loss 0.0360
+epoch 1 step 5600/5859 loss 0.0358
+epoch 1 step 5650/5859 loss 0.0355
+epoch 1 step 5700/5859 loss 0.0353
+epoch 1 step 5750/5859 loss 0.0351
+epoch 1 step 5800/5859 loss 0.0349
+epoch 1 step 5850/5859 loss 0.0347
+{'epoch': 1, 'step': 5859, 'train_loss': 0.03473356477249818, 'calib_nll': 0.08812418580055237}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  7.22it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  7.21it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 15381.13it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 15404.46it/s]
+Loading weights: 100%|██████████| 201/201 [00:00<00:00, 14931.64it/s]
+score 4096/100000
+score 4096/100000
+score 4096/100000
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 15255.60it/s]
+score 4096/100000
+score 86016/100000
+score 86016/100000
+score 86016/100000
+score 86016/100000
+{
+  "temperature": 1.0490826024908044,
+  "rule": {
+    "threshold": 0.76,
+    "cap": 6,
+    "alpha": 0.5,
+    "gate": 0.0,
+    "macro_f05": 0.9738963636606324,
+    "macro_precision": 0.9947213407739722,
+    "macro_recall": 0.9354090722511775,
+    "entities": 109668,
+    "singletons": 6035,
+    "singleton_accuracy": 0.979784589892295
+  },
+  "calibration": {
+    "threshold": 0.76,
+    "cap": 6,
+    "alpha": 0.5,
+    "gate": 0.0,
+    "macro_f05": 0.9741389416818861,
+    "macro_precision": 0.9950214891004364,
+    "macro_recall": 0.9353894676263097,
+    "entities": 109668,
+    "singletons": 6035,
+    "singleton_accuracy": 0.9804473902236951,
+    "umc_pairs": 353866
+  },
+  "evaluation": {
+    "macro_f05": 0.9744186845323999,
+    "macro_precision": 0.9950009828381342,
+    "macro_recall": 0.9363505531287342,
+    "entities": 110225,
+    "singletons": 5952,
+    "singleton_accuracy": 0.9810147849462365
+  },
+  "breakdown": {
+    "country=India": {
+      "macro_f05": 0.9694239129283969,
+      "macro_precision": 0.9925242390078917,
+      "macro_recall": 0.931477827884254,
+      "entities": 44350,
+      "singletons": 2451,
+      "singleton_accuracy": 0.9706242350061199
+    },
+    "country=US": {
+      "macro_f05": 0.9777813884509959,
+      "macro_precision": 0.9966684376976596,
+      "macro_recall": 0.9396310899726459,
+      "entities": 65875,
+      "singletons": 3501,
+      "singleton_accuracy": 0.9882890602684947
+    },
+    "script=indic_gold": {
+      "macro_f05": 0.9514912155947649,
+      "macro_precision": 0.9963665729644426,
+      "macro_recall": 0.8824079358034086,
+      "entities": 13518,
+      "singletons": 0,
+      "singleton_accuracy": 0.0
+    },
+    "script=latin_gold": {
+      "macro_f05": 0.9776235562076555,
+      "macro_precision": 0.9948100964769873,
+      "macro_recall": 0.9438908170290077,
+      "entities": 96707,
+      "singletons": 5952,
+      "singleton_accuracy": 0.9810147849462365
+    }
+  },
+  "leave_one_country": {
+    "countries": [
+      "India",
+      "US"
+    ],
+    "India->US": {
+      "threshold": 0.5,
+      "cap": 5,
+      "alpha": 0.5,
+      "gate": 0.0,
+      "macro_f05": 0.8162407892015631,
+      "macro_precision": 0.938125,
+      "macro_recall": 0.7006448412698412,
+      "entities": 8000,
+      "singletons": 395,
+      "singleton_accuracy": 0.8202531645569621,
+      "umc_pairs": 20859
+    },
+    "US->India": {
+      "threshold": 0.55,
+      "cap": 6,
+      "alpha": 0.8,
+      "gate": 0.0,
+      "macro_f05": 0.7949316013114529,
+      "macro_precision": 0.9082395833333332,
+      "macro_recall": 0.661126636904762,
+      "entities": 8000,
+      "singletons": 437,
+      "singleton_accuracy": 0.6109839816933639,
+      "umc_pairs": 19926
+    }
+  },
+  "ship": true,
+  "ship_rule": "replace A if eval F0.5 >= 0.953"
+}

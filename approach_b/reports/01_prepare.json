@@ -1,0 +1,32 @@
+{
+  "train_source1": {
+    "rows": 2206821,
+    "non_latin_names": 0,
+    "seconds": 10.6
+  },
+  "train_source2": {
+    "rows": 5034616,
+    "non_latin_names": 474345,
+    "seconds": 26.2
+  },
+  "train_source3": {
+    "rows": 5285603,
+    "non_latin_names": 278524,
+    "seconds": 27.1
+  },
+  "test_source1": {
+    "rows": 1732544,
+    "non_latin_names": 0,
+    "seconds": 8.5
+  },
+  "test_source2": {
+    "rows": 4887273,
+    "non_latin_names": 546606,
+    "seconds": 26.4
+  },
+  "test_source3": {
+    "rows": 5082316,
+    "non_latin_names": 320639,
+    "seconds": 26.8
+  }
+}

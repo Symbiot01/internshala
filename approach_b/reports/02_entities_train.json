@@ -1,0 +1,5 @@
+{
+  "train": 200000,
+  "calibration": 109668,
+  "evaluation": 110225
+}

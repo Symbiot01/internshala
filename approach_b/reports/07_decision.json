@@ -1,0 +1,63 @@
+{
+  "temperature": 1.074156563554578,
+  "rule": {
+    "threshold": 0.74,
+    "cap": 6,
+    "alpha": 0.5,
+    "gate": 0.0,
+    "macro_f05": 0.983385608809525,
+    "macro_precision": 0.9974781135965346,
+    "macro_recall": 0.9565086762455184,
+    "entities": 109668,
+    "singletons": 6035,
+    "singleton_accuracy": 0.9912178956089478
+  },
+  "calibration": {
+    "macro_f05": 0.9834423154552928,
+    "macro_precision": 0.9975658640132324,
+    "macro_recall": 0.9564798663482873,
+    "entities": 109668,
+    "singletons": 6035,
+    "singleton_accuracy": 0.9912178956089478
+  },
+  "evaluation": {
+    "macro_f05": 0.9829693360222452,
+    "macro_precision": 0.9968977380322357,
+    "macro_recall": 0.9565824868914005,
+    "entities": 110225,
+    "singletons": 5952,
+    "singleton_accuracy": 0.9865591397849462
+  },
+  "previous_eval_f05": 0.9781243805643989,
+  "stacker": {
+    "rule": {
+      "threshold": 0.74,
+      "cap": 6,
+      "alpha": 0.5,
+      "gate": 0.0,
+      "macro_f05": 0.983385608809525,
+      "macro_precision": 0.9974781135965346,
+      "macro_recall": 0.9565086762455184,
+      "entities": 109668,
+      "singletons": 6035,
+      "singleton_accuracy": 0.9912178956089478
+    },
+    "calibration": {
+      "macro_f05": 0.9834423154552928,
+      "macro_precision": 0.9975658640132324,
+      "macro_recall": 0.9564798663482873,
+      "entities": 109668,
+      "singletons": 6035,
+      "singleton_accuracy": 0.9912178956089478
+    },
+    "evaluation": {
+      "macro_f05": 0.9829693360222452,
+      "macro_precision": 0.9968977380322357,
+      "macro_recall": 0.9565824868914005,
+      "entities": 110225,
+      "singletons": 5952,
+      "singleton_accuracy": 0.9865591397849462
+    }
+  },
+  "score_source": "stacker"
+}
